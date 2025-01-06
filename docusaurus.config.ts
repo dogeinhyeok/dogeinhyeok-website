@@ -1,34 +1,48 @@
+// @docusaurus
+/**
+ * Docusaurus 설정 파일
+ * -> 사이트의 기본적인 설정을 정의
+ * -> 사이트의 제목, URL, 테마, 플러그인 등 다양한 요소 설정 가능
+ * -> Docusaurus를 통해 정적 사이트 생성 시 필요한 모든 설정 포함
+ */
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import CopyEmailButton from "./src/components/CopyEmailButton";
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+// 이 코드는 Node.js에서 실행됩니다 - 클라이언트 측 코드(브라우저 API, JSX 등)를 사용하지 마세요.
+const websiteUrl = "https://dogeinhyeok.com";
+const githubUrl = "https://github.com/dogeinhyeok";
+const discordUrl = "https://discord.gg/pyHeT4B4jx";
+const patreonUrl = "https://www.patreon.com/c/dogeinhyeok/membership";
+const youtubeUrl = "https://www.youtube.com/@dogeinhyeok";
+const threadUrl = "https://www.threads.net/@dogeinhyeok";
+const emailUrl = "devinhyeok@gmail.com";
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "도지인혁연구소",
+  tagline: '"매일 좋은 일을 하자!"',
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // 사이트의 프로덕션 URL을 여기에 설정하세요.
+  url: websiteUrl,
+  // 사이트가 제공되는 /<baseUrl>/ 경로명을 설정하세요.
+  // GitHub 페이지 배포의 경우, 종종 '/<projectName>/'입니다.
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  // GitHub 페이지 배포 설정.
+  // GitHub 페이지를 사용하지 않는 경우, 이 설정은 필요하지 않습니다.
+  organizationName: "dogeinhyeok", // 보통 GitHub 조직/사용자 이름입니다.
+  projectName: "dogeinhyeok-website", // 보통 저장소 이름입니다.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // 국제화를 사용하지 않더라도, 이 필드를 사용하여 유용한 메타데이터를 설정할 수 있습니다.
+  // 예를 들어, 사이트가 중국어인 경우 "en"을 "zh-Hans"로 바꿀 수 있습니다.
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "kr",
+    locales: ["kr"],
   },
 
   presets: [
@@ -37,8 +51,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // 이 부분을 본인의 저장소로 변경하세요.
+          // "이 페이지 편집" 링크를 제거하려면 이 부분을 삭제하세요.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
@@ -48,11 +62,11 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // 이 부분을 본인의 저장소로 변경하세요.
+          // "이 페이지 편집" 링크를 제거하려면 이 부분을 삭제하세요.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
+          // 블로깅 모범 사례를 강제하기 위한 유용한 옵션
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -65,12 +79,13 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    // 프로젝트의 소셜 카드로 교체하세요.
     image: "img/docusaurus-social-card.jpg",
+    // 상단 네비게이션 바 편집
     navbar: {
-      title: "My Site",
+      title: "도지인혁연구소",
       logo: {
-        alt: "My Site Logo",
+        alt: "도지인혁연구소",
         src: "img/logo.svg",
       },
       items: [
@@ -78,16 +93,22 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          label: "Discord",
+          href: discordUrl,
+          position: "right",
+        },
+        {
+          label: "Patreon",
+          href: patreonUrl,
           position: "right",
         },
       ],
     },
+    // 하단 네비게이션 바 편집
     footer: {
       style: "dark",
       links: [
@@ -104,34 +125,39 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: discordUrl,
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "Patreon",
+              href: patreonUrl,
+            },
+            {
+              label: "Youtube",
+              href: youtubeUrl,
+            },
+            {
+              label: "GitHub",
+              href: githubUrl,
+            },
+            {
+              label: "Threads",
+              href: threadUrl,
             },
           ],
         },
         {
           title: "More",
           items: [
+            { label: "Docs", to: "/docs/intro" },
             {
               label: "Blog",
               to: "/blog",
             },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} dogeinhyeok, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
