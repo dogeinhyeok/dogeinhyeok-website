@@ -7,9 +7,9 @@
 이 기술 블로그를 구현하기 위해 사용된 기술 스택은 다음과 같습니다:
 
 - 개발 프레임워크: React, Docusaurus, Tailwind CSS.
-- 사용 언어: JavaScript, TypeScript, MD, MDX
-- 편집 관리 도구: Cursor IDE, Git, Github
-- 배포 도구: Vercel
+- 사용 언어: JavaScript, TypeScript, MD, MDX.
+- 편집 관리 도구: Cursor IDE, Git, Github.
+- 배포 도구: Vercel.
 
 # 프로젝트 철학
 
