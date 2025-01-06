@@ -1,47 +1,288 @@
----
-sidebar_position: 1
----
+# 연구소 소개
 
-# Tutorial Intro
+최소한의 도구로 최대한의 생산성을 추구하는 것을 목표로 스택을 구성하고 있습니다. 이 구성은 다양한 프로젝트를 효율적으로 실행할 수 있는 트렌디하고 실용적인 도구들로 구성되어 있습니다. 각 스택은 협업, 개발, 데이터 관리, 콘텐츠 제작 등 여러 분야에서 필수적인 역할을 수행하며, 최신 기술 트렌드를 반영했습니다.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 트랜드 조사
 
-## Getting Started
+최신 기술 트렌드 조사 반영 기준입니다.
 
-Get started by **creating a new site**.
+[Technology | 2024 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/technology/)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+[Game Engine Popularity in 2024 – GameFromScratch.com](https://gamefromscratch.com/game-engine-popularity-in-2024/)
 
-### What you'll need
+[State of CSS 2023: CSS Frameworks](https://2023.stateofcss.com/en-US/css-frameworks/)
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+[The Ultimate List of Best AI Tools | 2024 | Aixploria](https://www.aixploria.com/en/ultimate-list-ai/)
 
-## Generate a new site
+### **문서 작성 도구**
 
-Generate a new Docusaurus site using the **classic template**.
+#### **Notion**
 
-The classic template will automatically be added to your project after you run the command:
+- **용도**: 간단한 작업 관리 및 문서 작성, 웹페이지 제작까지 가능한 올인원 도구
+- **예**: 개인 프로젝트 관리, 팀 노트, 간단한 지식 공유
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+#### **ChatGPT**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- **용도**: 콘텐츠 작성, 아이디어 브레인스토밍, 프로토타입 스크립트 생성
+- **예**: 블로그 초안 작성, 코드 생성, 질문 답변
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+#### **Google Sheet**
 
-## Start your site
+- **용도**: 데이터 정리, 계산, 협업을 지원하는 스프레드시트
+- **예**: 데이터 분석, 작업 일정 관리, 예산 계획
 
-Run the development server:
+#### **Figma**
 
-```bash
-cd my-website
-npm run start
-```
+- **용도**: 디자인 협업 및 프로토타이핑
+- **예**: UI/UX 설계, 와이어프레임 제작
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### **협업 관리 도구**
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+#### **Discord**
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- **용도**: 외부 공개용 커뮤니케이션과 커뮤니티 관리
+- **예**: 커뮤니티 Q&A, 음성 회의, 이벤트 관리
+
+#### **Slack**
+
+- **용도**: 내부 팀 협업 및 알림 관리
+- **예**: 프로젝트 알림, 채팅 기반 협업, 파일 공유
+
+#### **Zoom**
+
+- **용도**: 내부 팀 화상 회의 및 웨비나 진행
+- **예**: 팀 회의, 원격 프레젠테이션, 교육 세션
+
+#### **Jira**
+
+- **용도**: 프로젝트 관리와 이슈 추적
+- **예**: 스프린트 관리, 작업 티켓 생성
+
+#### **Github**
+
+- **용도**: 코드 저장 및 버전 관리
+- **예**: 소스 코드 관리, 협업형 리포지토리 운영
+
+#### **Flex**
+
+- **용도**: HR 관리 및 팀 자원 관리
+- **예**: 직원 일정 관리, 팀 자원 할당
+
+#### **Zapier**
+
+- **용도**: 여러 도구를 연결해 자동화 워크플로우 구성
+- **예**: 이메일 알림 자동화, 데이터 동기화
+
+#### **Google Workspace**
+
+- **용도**: 내부 조직의 이메일 계정 생성 및 파일 관리
+- **예**:
+
+#### **Google Gmail for Business**
+
+- **용도**: 조직 전용 이메일 계정 생성 및 관리.
+- **예**: 팀 및 개인별 공식 이메일 계정 운영.
+
+#### **Google Drive**
+
+- **용도**: 내부 파일 저장 및 공유.
+- **예**: 프로젝트 자료 보관, 팀 간 파일 공유, 협업 문서 관리.
+
+#### **Google Forms**
+
+- **용도**: 조직 내부 설문 조사 진행.
+- **예**: 직원 피드백 수집, 설문 조사, 이벤트 신청 접수.
+
+#### **Google Calendar**
+
+- **용도**: 팀원 개인과 조직의 비공식 일정 관리.
+- **예**: 개인 일정 확인, 비공식 회의 스케줄링, 휴가 및 이벤트 일정 관리.
+
+#### **Google Docs**
+
+- **용도**: 빠른 문서 작성 및 개인 작업 저장.
+- **예**: 프로젝트 아이디어 초안, 임시 보고서, 회의 안건 정리.
+
+#### **Google Slides**
+
+- **용도**: 프레젠테이션 초안 작성 및 개인 작업 저장.
+- **예**: 회의 자료의 초기 구조 작성, 제안서 레이아웃 테스트.
+
+### **기초 개발 도구**
+
+#### **Cursor IDE**
+
+- **용도**: AI 통합 프로그래밍 환경으로 코드 생산성 향상
+- **예**: 코드 작성, 디버깅
+
+#### **Git**
+
+- **용도**: 소스 코드 버전 관리
+- **예**: 협업 프로젝트 버전 관리
+
+#### **SourceTree**
+
+- **용도**: Git 작업을 GUI로 간편하게 관리
+- **예**: 시각적 Git 워크플로우 관리
+
+### **웹앱 개발 도구**
+
+#### **JavaScript**
+
+- **용도**: 웹 개발의 표준 언어로 프론트엔드와 백엔드 모두 지원
+- **예**: 웹사이트 인터랙션, API 통신
+
+#### **TypeScript**
+
+- **용도**: 타입 안정성을 제공하는 JavaScript 확장 언어
+- **예**: 대규모 프로젝트 관리
+
+#### **React**
+
+- **용도**: 컴포넌트 기반 UI 개발
+- **예**: SPA 개발, UI 모듈
+
+#### **Next.js**
+
+- **용도**: 서버사이드 렌더링 및 정적 사이트 생성 지원
+- **예**: SEO 최적화 웹사이트 개발
+
+#### **Tailwind CSS**
+
+- **용도**: 유틸리티 기반 CSS 프레임워크
+- **예**: 빠른 스타일링
+
+#### **shadcn/ui**
+
+- **용도**: 스타일링된 React 컴포넌트 라이브러리
+- **예**: UI 구축
+
+#### **Vercel**
+
+- **용도**: Next.js 배포와 정적 콘텐츠 호스팅
+- **예**: 정적 사이트 배포
+
+#### **v0.dev**
+
+- **용도**: AI 기반 웹사이트 개발
+- **예**: 생성형 웹 애플리케이션
+
+### **웹앱 개발 도구 (확장)**
+
+#### **Docusaurus**
+
+- **용도**: 외부 공개용 기술 블로그와 제품 설명서
+- **예**: 브랜드 사이트, 공개 문서
+
+#### **OpenAI Platform**
+
+- **용도**: AI 모델 통합 및 텍스트, 이미지 생성
+- **예**: 텍스트 자동화
+
+#### **Patreon API**
+
+- **용도**: 구독 기반 회원 관리 및 데이터 통합
+- **예**: VIP 사용자 관리
+
+#### **Web3.js**
+
+- **용도**: 블록체인 상호작용 및 스마트 계약 호출
+- **예**: 암호화폐 지갑 연동
+
+#### **React Unity WebGL**
+
+- **용도**: React와 Unity WebGL 통합으로 3D 애플리케이션 개발
+- **예**: 3D 웹게임
+
+#### **React Native**
+
+- **용도**: 크로스 플랫폼 모바일 앱 개발
+- **예**: iOS/Android 앱 개발
+
+#### **Electron**
+
+- **용도**: 데스크톱 애플리케이션 개발
+- **예**: 데스크톱 앱
+
+### **데이터베이스 개발 도구**
+
+#### **Python**
+
+- **용도**: 데이터 분석, 머신러닝, 웹 개발
+- **예**: 데이터 파이프라인 구축
+
+#### **SQL**
+
+- **용도**: 데이터베이스 관리 및 쿼리
+- **예**: 데이터 검색
+
+#### **Supabase**
+
+- **용도**: 인증, 데이터베이스 관리, 실시간 데이터 업데이트
+- **예**: 웹 애플리케이션 백엔드
+
+#### **FastAPI**
+
+- **용도**: 고성능 Python 기반 웹 API
+- **예**: RESTful API 구축
+
+#### **Pandas**
+
+- **용도**: 데이터 분석 및 처리
+- **예**: 데이터 정리
+
+### **로보틱스 개발 도구**
+
+#### **Raspberry Pi**
+
+- **용도**: 소형 IoT 및 로보틱스 하드웨어 플랫폼
+- **예**: IoT 프로젝트, 로봇 제어
+
+#### **LEGO Technic**
+
+- **용도**: 로봇 구조 및 기계적 기믹 설계를 위한 모듈형 조립 시스템
+- **예**: 로보틱스 프로토타이핑
+
+### **그래픽스 개발 도구**
+
+#### **C#**
+
+- **용도**: Unity 엔진의 주요 스크립팅 언어
+- **예**: 게임 로직 구현
+
+#### **Shader**
+
+- **용도**: 3D 렌더링 효과 및 그래픽 제어
+- **예**: 특수 효과
+
+#### **Unity**
+
+- **용도**: 게임, VR/AR 콘텐츠 제작 엔진
+- **예**: 3D 게임 제작
+
+### **컨텐츠 제작 도구**
+
+#### **MidJourney**
+
+- **용도**: 텍스트 기반 고품질 이미지 생성
+- **예**: 시각적 콘텐츠 제작
+
+#### **Runway**
+
+- **용도**: AI 기반 영상 생성 및 편집
+- **예**: 비디오 콘텐츠 제작
+
+#### **Capcut**
+
+- **용도**: 사용자 친화적 영상 편집
+- **예**: 소셜 미디어 영상 편집
+
+#### **Elevenlabs**
+
+- **용도**: 자연스러운 음성 합성
+- **예**: 음성 콘텐츠 제작
+
+#### **Suno**
+
+- **용도**: AI 기반 음악 생성
+- **예**: 배경음악 제작

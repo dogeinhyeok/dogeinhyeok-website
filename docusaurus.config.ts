@@ -8,7 +8,6 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
-import CopyEmailButton from "./src/components/CopyEmailButton";
 
 // 이 코드는 Node.js에서 실행됩니다 - 클라이언트 측 코드(브라우저 API, JSX 등)를 사용하지 마세요.
 const websiteUrl = "https://dogeinhyeok.com";

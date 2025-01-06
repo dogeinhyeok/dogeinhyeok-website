@@ -1,0 +1,8 @@
+{
+  "label": "Docusaurus",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Docusaurus 기술 문서 번역 목록입니다."
+  }
+}
