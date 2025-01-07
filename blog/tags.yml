@@ -1,19 +1,254 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+chatgpt:
+  label: ChatGPT
+  permalink: /chatgpt
+  description: Content creation and brainstorming tool. E.g., blog drafts, code generation, Q&A.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+perplexity:
+  label: Perplexity
+  permalink: /perplexity
+  description: Search-based information and AI response tool. E.g., quick info search, research aid.
+
+sider:
+  label: Sider
+  permalink: /sider
+  description: Browser search assistant tool. E.g., real-time webpage translation, YouTube subtitle translation, search result summary.
+
+notion:
+  label: Notion
+  permalink: /notion
+  description: Personal productivity tool. E.g., organizing ideas, setting goals, managing study plans.
+
+google-sheet:
+  label: Google Sheet
+  permalink: /google-sheet
+  description: Data organization and collaboration tool. E.g., data organization, task scheduling, budget planning.
+
+napkin-ai:
+  label: Napkin AI
+  permalink: /napkin-ai
+  description: Idea visualization and note management tool. E.g., organizing thoughts, creative brainstorming.
+
+gamma:
+  label: Gamma
+  permalink: /gamma
+  description: Slide, document, and webpage creation tool. E.g., interactive document creation, presentations.
+
+figma:
+  label: Figma
+  permalink: /figma
+  description: Design collaboration and prototyping tool. E.g., UI/UX design, wireframe creation.
+
+adobe-express:
+  label: Adobe Express
+  permalink: /adobe-express
+  description: Quick graphic design and video editing tool. E.g., social media post creation, simple marketing material design.
+
+capcut:
+  label: Capcut
+  permalink: /capcut
+  description: Video editing and creation tool. E.g., short videos for social media, mobile-based video editing.
+
+v0-dev:
+  label: v0.dev
+  permalink: /v0-dev
+  description: AI-based website development tool. E.g., generative web applications.
+
+discord:
+  label: Discord
+  permalink: /discord
+  description: Community management and informal communication tool. E.g., community Q&A, voice meetings, event hosting.
+
+zoom:
+  label: Zoom
+  permalink: /zoom
+  description: Team video conferencing and webinar tool. E.g., team meetings, remote presentations, training sessions.
+
+slack:
+  label: Slack
+  permalink: /slack
+  description: Real-time internal communication and notification management tool. E.g., project notifications, file sharing, chat.
+
+clickup:
+  label: ClickUp
+  permalink: /clickup
+  description: Project, task, collaboration, and HR management tool. E.g., task and project management, goal setting, attendance tracking, team collaboration.
+
+github:
+  label: Github
+  permalink: /github
+  description: Code storage and version control tool. E.g., source code management, collaborative repository operation.
+
+google-workspace:
+  label: Google Workspace
+  permalink: /google-workspace
+  description: Email and file management tool. E.g., document work and sharing with Gmail, Drive, Docs, Slides, Forms.
+
+make:
+  label: Make
+  permalink: /make
+  description: Tool for automating workflows by connecting various tools. E.g., data synchronization and notification automation.
+
+cursor-ide:
+  label: Cursor IDE
+  permalink: /cursor-ide
+  description: AI-integrated programming environment tool. E.g., coding, debugging.
+
+git:
+  label: Git
+  permalink: /git
+  description: Code version control tool. E.g., project collaboration version management.
+
+sourcetree:
+  label: SourceTree
+  permalink: /sourcetree
+  description: GUI tool for visualizing Git operations. E.g., Git workflow management.
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: Standard language for web development. E.g., website interaction, API communication.
+
+typescript:
+  label: TypeScript
+  permalink: /typescript
+  description: JavaScript extension language providing type safety. E.g., large-scale project management.
+
+react:
+  label: React
+  permalink: /react
+  description: Component-based UI development tool. E.g., SPA development, UI modules.
+
+next-js:
+  label: Next.js
+  permalink: /next-js
+  description: Tool supporting server-side rendering and static site generation. E.g., SEO-optimized website development.
+
+tailwind-css:
+  label: Tailwind CSS
+  permalink: /tailwind-css
+  description: Utility-based CSS framework. E.g., rapid styling.
+
+shadcn-ui:
+  label: shadcn/ui
+  permalink: /shadcn-ui
+  description: Styled React component library. E.g., UI building.
+
+vercel:
+  label: Vercel
+  permalink: /vercel
+  description: Next.js deployment and static content hosting tool. E.g., static site deployment.
+
+react-native:
+  label: React Native
+  permalink: /react-native
+  description: Cross-platform mobile app development tool. E.g., iOS/Android app development.
+
+electron:
+  label: Electron
+  permalink: /electron
+  description: Desktop application development tool. E.g., desktop apps.
 
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
-  description: Docusaurus tag description
+  description: Tool for public-facing tech blogs and product documentation. E.g., brand sites, public documents.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+openai-platform:
+  label: OpenAI Platform
+  permalink: /openai-platform
+  description: AI model integration and text, image generation tool. E.g., text automation.
+
+toss-payments-api:
+  label: Toss Payments API
+  permalink: /toss-payments-api
+  description: Online payment processing and management tool. E.g., credit card payments, bank transfers, virtual account issuance, recurring billing.
+
+web3-js:
+  label: Web3.js
+  permalink: /web3-js
+  description: Blockchain interaction and smart contract invocation tool. E.g., smart contract calls, NFT creation and management, cryptocurrency wallet integration.
+
+react-unity-webgl:
+  label: React Unity WebGL
+  permalink: /react-unity-webgl
+  description: Tool for 3D app development integrating React and Unity. E.g., 3D web games.
+
+python:
+  label: Python
+  permalink: /python
+  description: Data analysis, machine learning, web development tool. E.g., data pipeline construction and analysis.
+
+sql:
+  label: SQL
+  permalink: /sql
+  description: Database management and query tool. E.g., data retrieval, relational data management.
+
+firebase:
+  label: Firebase
+  permalink: /firebase
+  description: NoSQL-based database management tool. E.g., real-time chat applications, simple MVP development.
+
+supabase:
+  label: Supabase
+  permalink: /supabase
+  description: SQL-based database management tool. E.g., data-centric web application building.
+
+fastapi:
+  label: FastAPI
+  permalink: /fastapi
+  description: High-performance Python-based web API tool. E.g., RESTful API construction and data processing.
+
+pandas:
+  label: Pandas
+  permalink: /pandas
+  description: Data analysis and processing tool. E.g., data cleaning and visualization.
+
+langchain:
+  label: LangChain
+  permalink: /langchain
+  description: LLM-based application development framework. E.g., custom chatbot development, AI-based document analysis system construction.
+
+matplotlib:
+  label: Matplotlib
+  permalink: /matplotlib
+  description: Data visualization library. E.g., statistical graph creation, scientific plotting.
+
+seaborn:
+  label: Seaborn
+  permalink: /seaborn
+  description: Statistical data visualization tool. E.g., complex dataset heatmap creation, regression analysis visualization.
+
+c-sharp:
+  label: C#
+  permalink: /c-sharp
+  description: Main scripting language for Unity engine. E.g., game logic implementation.
+
+shader:
+  label: Shader
+  permalink: /shader
+  description: 3D rendering effects and graphics control tool. E.g., special effects.
+
+unity:
+  label: Unity
+  permalink: /unity
+  description: Game, VR/AR content creation engine. E.g., 3D game development, virtual environment AI simulation.
+
+unity-ml-agents:
+  label: Unity ML-Agents
+  permalink: /unity-ml-agents
+  description: Unity-based reinforcement learning support tool. E.g., AI agent simulation, virtual environment reinforcement learning, autonomous driving tests.
+
+raspberry-pi:
+  label: Raspberry Pi
+  permalink: /raspberry-pi
+  description: IoT project and robot control tool. E.g., robot control, mechanical modeling.
+
+lego-technic:
+  label: LEGO Technic
+  permalink: /lego-technic
+  description: Modular assembly system for mechanical modeling. E.g., robotics prototyping, mechanical modeling with Raspberry Pi.
+
+3d-printer:
+  label: 3D Printer
+  permalink: /3d-printer
+  description: Custom hardware creation tool. E.g., custom robot part design, prototyping with LEGO Technic, circuit board and connector fabrication.
