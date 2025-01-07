@@ -18,7 +18,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "아이디어 실현 지원",
+    title: "비용 효율적 비즈니스 구축",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
@@ -28,22 +28,19 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "효율적 솔루션 제공",
+    title: "지속 가능한 성장과 협력",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
-      <>
-        "매일 좋은 일을 하자!"는 철학 아래, 누구나 자신의 아이디어를 실현할 수
-        있도록 돕습니다.
-      </>
+      <>"매일 좋은 일을 하자!"는 철학 아래, 함께 성장하며 협력합니다.</>
     ),
   },
   {
-    title: "아이디어 검증 및 개발 단순화",
+    title: "아이디어를 현실로",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        복잡한 아이디어 검증 및 개발 과정을 단순화하여, 아이디어를 현실로 만드는
-        여정을 함께합니다.
+        복잡한 아이디어를 단순화하고, 아이디어를 현실로 만드는 여정을
+        함께합니다.
       </>
     ),
   },
