@@ -8,69 +8,72 @@ sidebar_position: 1
 
 **Unity**는 2D 및 3D 콘텐츠 제작을 위한 **멀티플랫폼 게임 엔진**으로, 게임 개발뿐만 아니라 증강현실(AR), 가상현실(VR), 시뮬레이션, 애니메이션 등 다양한 분야에서 활용됩니다. Unity는 직관적인 인터페이스와 풍부한 도구를 제공하며, 초보 개발자부터 전문가까지 모두가 쉽게 사용할 수 있습니다.
 
-## **Unity로 무엇을 할 수 있나요?**
+## Unity로 무엇을 할 수 있나요?
 
-#### **게임 개발**
+#### 게임 개발
 
 모바일, PC, 콘솔, 웹 등 다양한 플랫폼에 게임을 배포 가능.
 
-#### **AR/VR 콘텐츠 제작**
+#### AR/VR 콘텐츠 제작
 
 ARKit, ARCore, Oculus, HTC Vive 등 다양한 AR/VR 디바이스 지원.
 
-#### **시뮬레이션 및 시각화**
+#### 시뮬레이션 및 시각화
 
 물리 기반 시뮬레이션, 건축 시각화 및 제품 프로토타이핑 가능.
 
-#### **애니메이션 제작**
+#### 애니메이션 제작
 
 캐릭터 애니메이션과 시네마틱 컷신 제작을 위한 강력한 툴 제공.
 
-#### **멀티플레이어 게임 구현**
+#### 멀티플레이어 게임 구현
 
 Unity Netcode 및 다양한 네트워크 솔루션을 활용한 실시간 멀티플레이어 지원.
 
-#### **자체 스토어 지원**
+#### 자체 스토어 지원
 
 Unity Asset Store에서 다양한 플러그인, 템플릿, 에셋을 구매해 프로젝트에 활용.
 
-#### **Shader 및 비주얼 이펙트**
+#### Shader 및 비주얼 이펙트
 
 고품질 렌더링을 위한 Shader Graph와 비주얼 이펙트 제작 도구 제공.
 
 ## Unity를 선택한 이유
 
-#### **멀티플랫폼 지원**
+#### 멀티플랫폼 지원
 
 한 번의 개발로 iOS, Android, PC, 콘솔 등 다양한 플랫폼에 배포 가능.
 
-#### **직관적인 인터페이스**
+#### 직관적인 인터페이스
 
 초보자도 쉽게 사용할 수 있는 사용자 친화적인 환경.
 
-#### **강력한 커뮤니티 및 지원**
+#### 강력한 커뮤니티 및 지원
 
 수많은 튜토리얼, 포럼, Unity Learn으로 개발 학습 지원.
 
-#### **풍부한 에셋 스토어**
+#### 풍부한 에셋 스토어
 
 개발 속도를 높이는 다양한 무료 및 유료 에셋 제공.
 
-#### **고품질 그래픽**
+#### 고품질 그래픽
 
 HDRP, URP 등 렌더링 파이프라인으로 몰입감 있는 그래픽 제공.
 
-#### **확장성과 유연성**
+#### 확장성과 유연성
 
 플러그인 및 커스텀 스크립트를 통해 다양한 기능 구현 가능.
 
-#### **실시간 개발 환경**
+#### 실시간 개발 환경
 
 즉각적인 피드백과 디버깅을 지원하는 실시간 개발 워크플로.
 
 ### Unity 학습에 도움이 되는 링크
 
-- [Unity 실시간 개발 플랫폼 | 3D, 2D, VR 및 AR 엔진](https://unity.com/kr): Unity 공식 홈페이지
-- [Unity - Manual: Unity 6 User Manual](https://docs.unity3d.com/Manual/index.html): Unity 공식 메뉴얼
-- [Unity - Scripting API](https://docs.unity3d.com/ScriptReference/index.html): Unity 공식 Scripting API
-- [한 번에 끝내는 유니티&C# 게임 개발 | 패스트캠퍼스](https://fastcampus.co.kr/dev_online_unitygame): 유니티 게임 개발 강의
+- [Unity 실시간 개발 플랫폼 | 3D, 2D, VR 및 AR 엔진](https://unity.com/kr)
+
+- [Unity - Manual: Unity 6 User Manual](https://docs.unity3d.com/Manual/index.html)
+
+- [Unity - Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
+
+- [한 번에 끝내는 유니티&C# 게임 개발 | 패스트캠퍼스](https://fastcampus.co.kr/dev_online_unitygame)

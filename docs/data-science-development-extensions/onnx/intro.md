@@ -52,6 +52,8 @@ AI 모델의 표준 형식을 제공하여 모델 공유와 협업을 용이하�
 
 ### ONNX 학습에 도움이 되는 링크
 
-- [ONNX 공식 웹사이트](https://onnx.ai/): ONNX의 개요, 문서, 튜토리얼 제공
-- [ONNX GitHub](https://github.com/onnx/onnx): ONNX 소스 코드 및 개발 참여
-- [ONNX Model Zoo](https://github.com/onnx/models): 다양한 사전 학습된 ONNX 모델 제공
+- [ONNX 공식 웹사이트](https://onnx.ai/)
+
+- [ONNX GitHub](https://github.com/onnx/onnx)
+
+- [ONNX Model Zoo](https://github.com/onnx/models)

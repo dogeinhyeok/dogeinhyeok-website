@@ -6,7 +6,7 @@ sidebar_position: 1
 
 **ChatGPT**는 OpenAI에서 개발한 **AI 기반 대화형 텍스트 생성 도구**로, 자연어 이해와 생성 능력을 활용하여 다양한 작업을 수행할 수 있는 강력한 플랫폼입니다. 사용자 친화적인 인터페이스와 커스터마이징 옵션을 통해 학습, 창작, 코드 작성 등 여러 분야에서 생산성과 창의성을 지원합니다. **자연어 기반 설계**와 **다양한 API 옵션**으로 개발자와 일반 사용자 모두에게 적합한 솔루션을 제공합니다.
 
-## **ChatGPT로 무엇을 할 수 있나요?**
+### ChatGPT로 무엇을 할 수 있나요?
 
 #### 문서 작성 및 편집
 
@@ -44,7 +44,7 @@ sidebar_position: 1
 
 이미지 설명, 객체 인식, 이미지 생성 등 시각적 작업 지원.
 
-## **ChatGPT를 선택한 이유**
+### ChatGPT를 선택한 이유
 
 #### 뛰어난 자연어 처리
 
@@ -74,7 +74,7 @@ sidebar_position: 1
 
 OpenAI의 신뢰성 높은 기술 기반으로 데이터 보호 및 안정적인 작업 환경 제공.
 
-## **ChatGPT 학습에 도움이 되는 링크**
+### ChatGPT 학습에 도움이 되는 링크
 
-- [ChatGPT](https://chatgpt.com/): ChatGPT 사이트
-- [Prompt Engineering Guide – Nextra](https://www.promptingguide.ai/): 프롬프트 엔지니어링 가이드
+- [ChatGPT](https://chatgpt.com/)
+- [Prompt Engineering Guide – Nextra](https://www.promptingguide.ai/)

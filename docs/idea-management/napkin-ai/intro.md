@@ -60,4 +60,4 @@ Napkin AI는 텍스트를 시각적 요소로 변환하는 AI 기반 시각화 �
 
 ## 북마크
 
-- [Napkin AI - The visual AI for business storytelling](https://www.napkin.ai/): Napkin AI 사이트
+- [Napkin AI - The visual AI for business storytelling](https://www.napkin.ai/)

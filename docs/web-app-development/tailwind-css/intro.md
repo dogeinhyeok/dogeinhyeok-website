@@ -6,78 +6,78 @@ sidebar_position: 1
 
 **Tailwind CSS**는 유틸리티 클래스 기반으로 설계된 최신 **CSS 프레임워크**입니다. HTML 요소에 클래스만 추가하여 스타일을 빠르고 효율적으로 작성할 수 있도록 돕습니다. **모던 웹 디자인**과 **반응형 레이아웃**을 쉽게 구현할 수 있어, 프론트엔드 개발자들 사이에서 널리 사용되고 있습니다.
 
-### **Tailwind CSS으로 무엇을 할 수 있나요?**
+### Tailwind CSS으로 무엇을 할 수 있나요?
 
-#### **효율적인 스타일링**
+#### 효율적인 스타일링
 
 미리 정의된 유틸리티 클래스를 사용해 간단히 CSS를 작성.
 
-#### **반응형 디자인**
+#### 반응형 디자인
 
 화면 크기에 맞춰 유연한 레이아웃 구현.
 
-#### **다양한 커스터마이징**
+#### 다양한 커스터마이징
 
 프로젝트 요구에 맞게 스타일을 자유롭게 변경 가능.
 
-#### **일관된 디자인 시스템**
+#### 일관된 디자인 시스템
 
 팀 간 협업에서 일관된 스타일 가이드 유지.
 
-#### **빠른 프로토타이핑**
+#### 빠른 프로토타이핑
 
 CSS 작성 없이 빠르게 디자인을 시각화.
 
-#### **사용자 정의 테마 설정**
+#### 사용자 정의 테마 설정
 
 Tailwind 설정 파일로 색상, 폰트, 여백 등의 기본값을 프로젝트에 맞게 설정 가능.
 
-#### **플러그인 시스템 활용**
+#### 플러그인 시스템 활용
 
 다양한 플러그인을 통해 기능 확장 가능.
 
-### **Tailwind CSS를 선택한 이유**
+### Tailwind CSS를 선택한 이유
 
-#### **사용 편의성**
+#### 사용 편의성
 
 HTML 클래스만으로 직관적이고 빠른 스타일링 가능.
 
-#### **반응형 디자인**
+#### 반응형 디자인
 
 간단한 접두어로 다양한 디바이스에 최적화된 UI 구현.
 
-#### **높은 생산성**
+#### 높은 생산성
 
 CSS 작성 없이 미리 정의된 클래스로 개발 속도 증가.
 
-#### **유연한 커스터마이징**
+#### 유연한 커스터마이징
 
 설정 파일로 프로젝트에 맞게 색상, 여백 등을 조정 가능.
 
-#### **디자인 시스템 일관성**
+#### 디자인 시스템 일관성
 
 팀 협업 시 디자인 가이드라인 유지가 용이.
 
-#### **빠른 프로토타이핑**
+#### 빠른 프로토타이핑
 
 UI를 빠르게 시각화하고 개발과 디자인 동시 진행 가능.
 
-#### **풍부한 생태계**
+#### 풍부한 생태계
 
 다양한 공식 플러그인과 커뮤니티 확장 기능 지원.
 
 ### 선행 기술
 
-- [**JavaScript**](https://www.notion.so/JavaScript-16ecf11961688090a096cb5a60dc905b?pvs=21)
+- JavaScript
 
-- [**TypeScript**](https://www.notion.so/TypeScript-14fcf119616880f49ec8e27bf8e16966?pvs=21)
+- TypeScript
 
-- [**React**](https://www.notion.so/React-14fcf119616880c98200cd450d1d7001?pvs=21)
+- React
 
-- [**Next.js**](https://www.notion.so/Next-js-159cf11961688063b169c5efa0d87205?pvs=21)
+- Next.js
 
-## 북마크
+### Tailwind CSS 학습에 도움이 되는 링크
 
-- [Installation - Tailwind CSS](https://tailwindcss.com/docs/installation): Tailwind CSS 설치 방법
+- [Installation - Tailwind CSS](https://tailwindcss.com/docs/installation)
 
-- [Tailwind CSS로 만드는 멋진 웹 UI 스타일링 강의 | 코딩웍스(Coding Works) - 인프런](https://www.inflearn.com/course/tailwind-css-%EA%B0%9C%EB%B0%9C%EC%9E%90-ui%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81): Tailwind CSS 강의
+- [Tailwind CSS로 만드는 멋진 웹 UI 스타일링 강의 | 코딩웍스(Coding Works) - 인프런](https://www.inflearn.com/course/tailwind-css-%EA%B0%9C%EB%B0%9C%EC%9E%90-ui%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81)

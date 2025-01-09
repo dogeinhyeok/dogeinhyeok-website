@@ -10,15 +10,15 @@ sidebar_position: 1
 
 ## 운동 목표
 
-#### **체력 증진**
+#### 체력 증진
 
 체계적인 훈련을 통해 전신 근력을 강화합니다.
 
-#### **유연성 향상**
+#### 유연성 향상
 
 브리지와 스트레칭을 통해 근육의 유연성을 높입니다.
 
-#### **일상에서의 실천 가능성**
+#### 일상에서의 실천 가능성
 
 장비가 필요 없는 간단한 운동으로 지속 가능성을 확보합니다.
 
@@ -31,7 +31,7 @@ sidebar_position: 1
 아래는 운동의 주요 단계 목록입니다. 자신의 체력 수준에 맞는 단계를 선택하여 진행하세요.
 
 <details>
-<summary>**풀업 단계 목록**</summary>
+<summary>풀업 단계 목록</summary>
 
 #### 1단계: 수직 풀업
 
@@ -96,7 +96,7 @@ sidebar_position: 1
 </details>
 
 <details>
-<summary>**브리지 단계 목록**</summary>
+<summary>브리지 단계 목록</summary>
 
 #### 1단계: 쇼트 브리지
 
@@ -161,7 +161,7 @@ sidebar_position: 1
 </details>
 
 <details>
-<summary>**핸드스탠드 푸시업 단계 목록**</summary>
+<summary>핸드스탠드 푸시업 단계 목록</summary>
 
 #### 1단계: 월 헤드스탠드
 
@@ -226,7 +226,7 @@ sidebar_position: 1
 </details>
 
 <details>
-<summary>**레그 레이즈 단계 목록**</summary>
+<summary>레그 레이즈 단계 목록</summary>
 
 #### 1단계: 니 턱
 
@@ -291,7 +291,7 @@ sidebar_position: 1
 </details>
 
 <details>
-<summary>**스쿼트 단계 목록**</summary>
+<summary>스쿼트 단계 목록</summary>
 
 #### 1단계: 숄더스탠드 스쿼트
 
@@ -356,7 +356,7 @@ sidebar_position: 1
 </details>
 
 <details>
-<summary>**푸쉬업 단계 목록**</summary>
+<summary>푸쉬업 단계 목록</summary>
 
 #### 1단계: 월 푸시업
 
@@ -461,15 +461,15 @@ sidebar_position: 1
 
 ## 유용한 조언
 
-#### **꾸준함이 핵심**
+#### 꾸준함이 핵심
 
 하루 10분이라도 매일 하는 것이 중요합니다.
 
-#### **메모 앱 활용**
+#### 메모 앱 활용
 
 개인 운동 체크리스트를 만들어 매일 실천 여부를 기록하세요.
 
-#### **호흡 관리**
+#### 호흡 관리
 
 동작의 정확성만큼 호흡을 일정하게 유지하는 것이 중요합니다.
 

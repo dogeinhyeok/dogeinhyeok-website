@@ -8,54 +8,56 @@ scikit-learn은 파이썬용 머신러닝 라이브러리로, 데이터 마이�
 
 ### scikit-learn으로 무엇을 할 수 있나요?
 
-#### **분류**
+#### 분류
 
 이메일 스팸 필터링, 이미지 인식 등 데이터를 여러 범주로 분류할 수 있습니다.
 
-#### **회귀**
+#### 회귀
 
 주택 가격 예측, 주식 가격 예측 등 연속적인 값을 예측할 수 있습니다.
 
-#### **클러스터링**
+#### 클러스터링
 
 고객 세그먼테이션, 문서 그룹화 등 비슷한 데이터를 그룹으로 묶을 수 있습니다.
 
-#### **차원 축소**
+#### 차원 축소
 
 데이터의 복잡성을 줄이고 중요한 특성을 추출할 수 있습니다.
 
-#### **모델 선택 및 평가**
+#### 모델 선택 및 평가
 
 교차 검증, 그리드 서치 등을 통해 최적의 모델을 선택하고 성능을 평가할 수 있습니다.
 
-#### **전처리**
+#### 전처리
 
 특성 추출, 정규화, 인코딩 등 데이터 전처리 작업을 수행할 수 있습니다.
 
 ### scikit-learn을 선택하는 이유
 
-#### **사용 편의성**
+#### 사용 편의성
 
 일관된 인터페이스와 잘 문서화된 API로 초보자도 쉽게 사용할 수 있습니다.
 
-#### **다양한 알고리즘**
+#### 다양한 알고리즘
 
 분류, 회귀, 클러스터링 등 다양한 머신러닝 알고리즘을 제공합니다.
 
-#### **성능**
+#### 성능
 
 C와 Cython으로 최적화되어 빠른 연산 속도를 제공합니다.
 
-#### **통합성**
+#### 통합성
 
 NumPy, SciPy, pandas 등 다른 과학 컴퓨팅 라이브러리와 잘 통합됩니다.
 
-#### **활발한 커뮤니티**
+#### 활발한 커뮤니티
 
 지속적인 업데이트와 풍부한 문서, 예제를 제공하는 활발한 커뮤니티가 있습니다.
 
 ### scikit-learn 학습에 도움이 되는 링크
 
-- [scikit-learn 공식 문서](https://scikit-learn.org/stable/): scikit-learn의 포괄적인 가이드와 튜토리얼
-- [scikit-learn GitHub](https://github.com/scikit-learn/scikit-learn): scikit-learn의 소스 코드와 이슈 트래커
-- [scikit-learn 예제](https://scikit-learn.org/stable/auto_examples/index.html): 다양한 머신러닝 알고리즘 적용 예제
+- [scikit-learn 공식 문서](https://scikit-learn.org/stable/)
+
+- [scikit-learn GitHub](https://github.com/scikit-learn/scikit-learn)
+
+- [scikit-learn 예제](https://scikit-learn.org/stable/auto_examples/index.html)

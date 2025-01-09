@@ -6,32 +6,30 @@ sidebar_position: 1
 
 Docusaurus는 빠르고 간단하게 정적 사이트를 생성할 수 있는 React 기반 정적 사이트 생성기이며, Tailwind CSS는 유틸리티 기반 CSS 프레임워크로 효율적이고 현대적인 스타일링을 제공합니다. 이 두 도구를 결합하면 확장성과 디자인 품질, 그리고 최신 트렌드를 반영한 기술 블로그를 손쉽게 제작할 수 있습니다.
 
-### **Docusaurus와 Tailwind CSS 통합의 장점**
+### Docusaurus와 Tailwind CSS 통합의 장점
 
-#### **React 기반의 현대적인 설계**
+#### React 기반의 현대적인 설계
 
 - **Docusaurus**는 React를 기반으로 작동하여 현대적인 컴포넌트 구조를 지원합니다.
 - React 생태계를 활용해 다양한 외부 서비스와 쉽게 연결할 수 있습니다(예: Google Analytics, Utterances).
 
-#### **확장성과 유연성**
+#### 확장성과 유연성
 
 - Tailwind CSS의 유틸리티 클래스로 스타일을 쉽고 빠르게 수정하거나 확장할 수 있습니다.
 - Docusaurus의 플러그인과 React 컴포넌트로 다양한 기능을 추가하고 사용자 요구사항에 맞출 수 있습니다.
 
-#### **현대적인 디자인**
+#### 현대적인 디자인
 
 - Tailwind CSS는 반응형, 다크모드, 맞춤 설정이 쉬워 시각적 완성도를 높입니다.
 - Docusaurus와 함께 깔끔하고 이해하기 쉬운 인터페이스를 만듭니다.
 
-#### **검색 엔진 최적화 및 성능**
+#### 검색 엔진 최적화 및 성능
 
 - Docusaurus의 검색 엔진 최적화 기능과 Tailwind CSS의 가벼운 구조로 빠른 로딩과 검색 노출을 개선합니다.
 
-## **Docusaurus 설치하기**
+## Docusaurus 설치하기
 
 [Installation | Docusaurus](https://docusaurus.io/docs/installation)
-
-출처: Docusaurus 공식문
 
 원하는 폴더로 이동한 후 Docusaurus를 설치합니다. `create-docusaurus` 명령어로 쉽게 설치할 수 있으며, `my-website` 부분에는 원하는 프로젝트명을 입력하면 됩니다.
 
@@ -52,7 +50,7 @@ npm i
 ![003](./img/003.png)
 이후의 모든 작업은 프로젝트의 내부 터미널에서 진행합니다.
 
-## **Tailwind CSS 설치하기**
+## Tailwind CSS 설치하기
 
 [Tailwind CSS Setup | Developer](https://www.onatim.com/docs/tutorial-docusaurus/tailwindcss/)
 
@@ -66,9 +64,9 @@ npm install -D tailwindcss postcss autoprefixer
 
 이후에는 JavaScript 프로젝트와 TypeScript 프로젝트의 설정 방법이 서로 다릅니다.
 
-## **Tailwind CSS 설정하기 - JavaScript편**
+## Tailwind CSS 설정하기 - JavaScript편
 
-### **Tailwind CSS 설정 파일 추가**
+### Tailwind CSS 설정 파일 추가
 
 다음 명령어로 Tailwind CSS 추가해줍니다.
 
@@ -76,7 +74,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
 
-### **`tailwind.config.js` 설정 파일 수정**
+### `tailwind.config.js` 설정 파일 수정
 
 Tailwind CSS를 Docusaurus와 연결하려면 다음 설정이 필요합니다:
 
@@ -104,7 +102,7 @@ module.exports = {
 npx tailwindcss build -o output.css
 ```
 
-### **Docusaurus 설정 파일에 Tailwind CSS 플러그인 추가**
+### Docusaurus 설정 파일에 Tailwind CSS 플러그인 추가
 
 ```jsx
 import { themes as prismThemes } from "prism-react-renderer";
@@ -135,7 +133,7 @@ export default config;
 
 ![005](./img/005.png)
 
-### **Tailwind CSS 불러오기 위한 전역 CSS 파일 수정**
+### Tailwind CSS 불러오기 위한 전역 CSS 파일 수정
 
 `src/css/tailwind.css` 파일에 Tailwind CSS 설정을 추가합니다:
 
@@ -148,9 +146,9 @@ export default config;
 
 ![006](./img/006.png)
 
-## **Tailwind CSS 설정하기 - TypeScript편**
+## Tailwind CSS 설정하기 - TypeScript편
 
-### **Tailwind CSS 설정 파일 추가**
+### Tailwind CSS 설정 파일 추가
 
 다음 명령어로 Tailwind CSS 추가해줍니다.
 
@@ -194,7 +192,7 @@ export default config;
 
 ![007](./img/007.png)
 
-### **TypeScript 설정 반영**
+### TypeScript 설정 반영
 
 Tailwind CLI 명령어 실행 시 TypeScript 설정 파일을 사용하려면 아래 명령어를 실행합니다:
 
@@ -202,7 +200,7 @@ Tailwind CLI 명령어 실행 시 TypeScript 설정 파일을 사용하려면 �
 npx tailwindcss -c tailwind.config.ts
 ```
 
-### **출력 확인**
+### 출력 확인
 
 다음 명령어로 Tailwind CSS가 정상적으로 설정되었는지 확인합니다:
 
@@ -210,7 +208,7 @@ npx tailwindcss -c tailwind.config.ts
 npx tailwindcss build -o output.css
 ```
 
-### **Docusaurus 설정 파일에 Tailwind CSS 플러그인 추가**
+### Docusaurus 설정 파일에 Tailwind CSS 플러그인 추가
 
 ```jsx
 import { themes as prismThemes } from "prism-react-renderer";

@@ -6,80 +6,80 @@ sidebar_position: 1
 
 **Raspberry Pi**는 크기가 작고 비용 효율적인 **싱글보드 컴퓨터**로, 교육, 프로토타이핑, IoT, 로보틱스 등 다양한 프로젝트에 활용됩니다. 간단한 컴퓨터 작업부터 복잡한 하드웨어 제어까지 수행할 수 있어 초보자와 전문가 모두에게 적합한 도구입니다.
 
-### **Raspberry Pi로 무엇을 할 수 있나요?**
+### Raspberry Pi로 무엇을 할 수 있나요?
 
-#### **교육 및 학습**
+#### 교육 및 학습
 
 프로그래밍, 컴퓨터 과학, 전자공학 기초 교육에 활용 가능.
 
-#### **IoT 및 로보틱스**
+#### IoT 및 로보틱스
 
 센서 및 액추에이터와 통합하여 스마트 디바이스 및 로봇 제어.
 
-#### **멀티미디어 플레이어**
+#### 멀티미디어 플레이어
 
 Kodi 등 소프트웨어를 사용해 저렴한 미디어 센터 구성 가능.
 
-#### **네트워크 디바이스**
+#### 네트워크 디바이스
 
 개인 웹 서버, 파일 서버(NAS), VPN 서버 등으로 활용.
 
-#### **프로토타이핑**
+#### 프로토타이핑
 
 하드웨어와 소프트웨어를 빠르게 통합하여 테스트 및 개발 가능.
 
-#### **AI 및 머신러닝**
+#### AI 및 머신러닝
 
 TensorFlow Lite, OpenCV 등으로 간단한 AI 애플리케이션 실행 가능.
 
-#### **전자 프로젝트**
+#### 전자 프로젝트
 
 GPIO 핀을 사용하여 LED, 모터, 센서 등을 제어.
 
-#### **저전력 컴퓨팅**
+#### 저전력 컴퓨팅
 
 저렴한 전력 소비로 환경 감지 및 데이터 로깅 프로젝트에 적합.
 
 ### Raspberry Pi를 선택한 이유
 
-#### **비용 효율성**
+#### 비용 효율성
 
 낮은 가격으로 강력한 컴퓨팅 성능 제공.
 
-#### **확장성**
+#### 확장성
 
 다양한 센서, 모듈, 디스플레이와 통합 가능.
 
-#### **사용자 친화적 환경**
+#### 사용자 친화적 환경
 
 Linux 기반 Raspbian 운영 체제를 제공하며 초보자도 쉽게 시작 가능.
 
-#### **소형화 및 이동성**
+#### 소형화 및 이동성
 
 컴팩트한 크기로 휴대와 설치가 용이.
 
-#### **커뮤니티 지원**
+#### 커뮤니티 지원
 
 전 세계 사용자의 풍부한 튜토리얼과 기술 지원 커뮤니티.
 
-#### **다양한 활용 사례**
+#### 다양한 활용 사례
 
 교육, 산업용 애플리케이션, DIY 프로젝트 등 다목적 활용 가능.
 
-#### **오픈소스 호환성**
+#### 오픈소스 호환성
 
 다양한 오픈소스 소프트웨어 및 하드웨어와의 높은 호환성.
 
 ### Raspberry Pi 학습에 도움이 되는 링크
 
-- [Raspberry Pi](https://www.raspberrypi.com/): 라즈베리 파이 공식 웹사이트
+- [Raspberry Pi](https://www.raspberrypi.com/)
 
-- [파이썬 라즈베리파이 IoT프로젝트-원격모니터링 자동차 강의 | 노마드크리에이터 - 인프런](https://www.inflearn.com/course/iot): 라즈베리 파이 관련 프로젝트와 튜토리얼 제공
+- [파이썬 라즈베리파이 IoT프로젝트-원격모니터링 자동차 강의 | 노마드크리에이터 - 인프런](https://www.inflearn.com/course/iot)
 
-- [에듀이노](https://www.eduino.kr/product/detail.html?product_no=7267&cate_no=381&display_group=1): 라즈베리 파이 관련 프로젝트와 튜토리얼 제공
+- [에듀이노](https://www.eduino.kr/product/detail.html?product_no=7267&cate_no=381&display_group=1)
 
-- [에듀이노](https://www.eduino.kr/product/cateGory/highSchool/list2.html?cate_no=381): 라즈베리 파이 관련 프로젝트와 튜토리얼 제공
+- [에듀이노](https://www.eduino.kr/product/cateGory/highSchool/list2.html?cate_no=381)
 
-- [라즈베리 파이 포럼](https://www.raspberrypi.org/forums/): 커뮤니티 질문과 토론
+- [라즈베리 파이 포럼](https://www.raspberrypi.org/forums/)
 
-- [MagPi 매거진](https://magpi.raspberrypi.org/): 라즈베리 파이 관련 프로젝트와 튜토리얼 제공
+- [MagPi 매거진](https://magpi.raspberrypi.org/)

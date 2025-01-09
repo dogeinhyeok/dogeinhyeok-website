@@ -52,6 +52,8 @@ navigation, manipulation 등 로보틱스에 필요한 다양한 기능을 제�
 
 ### ROS 학습에 도움이 되는 링크
 
-- [ROS 공식 웹사이트](http://www.ros.org/): 문서, 튜토리얼, 다운로드 제공
-- [ROS Wiki](http://wiki.ros.org/): 상세한 문서와 예제 코드 제공
-- [ROS Answers](https://answers.ros.org/questions/): Q&A 포럼
+- [ROS 공식 웹사이트](http://www.ros.org/)
+
+- [ROS Wiki](http://wiki.ros.org/)
+
+- [ROS Answers](https://answers.ros.org/)
