@@ -1,0 +1,8 @@
+{
+  "label": "ChatGPT",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "ChatGPT 관련 문서입니다."
+  }
+}

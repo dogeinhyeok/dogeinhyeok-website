@@ -1,0 +1,8 @@
+{
+  "label": "3d Printer",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "3d Printer 관련 문서입니다."
+  }
+}
