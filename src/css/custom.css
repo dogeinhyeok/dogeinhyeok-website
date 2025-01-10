@@ -33,3 +33,624 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* logo svg setting */
+li > a.menu__link {
+  justify-content: flex-start;
+}
+
+.dogeinhyeok-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/dogeinhyeok-logo.svg);
+}
+
+.typescript-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/typescript-logo.svg);
+}
+
+.v0-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/v0-logo.svg);
+}
+
+.open-ai-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/open-ai-logo.svg);
+}
+
+.oopy-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/oopy-logo.svg);
+}
+
+.next-js-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/next-js-logo.svg);
+}
+
+.napkin-ai-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/napkin-ai-logo.svg);
+}
+
+.midjourney-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/midjourney-logo.svg);
+}
+
+.matplotlib-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/matplotlib-logo.svg);
+}
+
+.flux-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/flux-logo.svg);
+}
+
+.make-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/make-logo.svg);
+}
+
+.flutter-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/flutter-logo.svg);
+}
+
+.lego-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/lego-logo.svg);
+}
+
+.onnx-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/onnx-logo.svg);
+}
+
+.langchain-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/langchain-logo.svg);
+}
+
+.pandas-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/pandas-logo.svg);
+}
+
+.python-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/python-logo.svg);
+}
+
+.jira-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/jira-logo.svg);
+}
+
+.google-drive-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/google-drive-logo.svg);
+}
+
+.javascript-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/javascript-logo.svg);
+}
+
+.google-sheet-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/google-sheet-logo.svg);
+}
+
+.patreon-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/patreon-logo.svg);
+}
+
+.obsidian-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/obsidian-logo.svg);
+}
+
+.notion-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/notion-logo.svg);
+}
+
+.gitbook-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/gitbook-logo.svg);
+}
+
+.github-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/github-logo.svg);
+}
+
+.gamma-ai-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/gamma-ai-logo.svg);
+}
+
+.flex-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/flex-logo.svg);
+}
+
+.git-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/git-logo.svg);
+}
+
+.firebase-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/firebase-logo.svg);
+}
+
+.figma-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/figma-logo.svg);
+}
+
+.fastapi-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/fastapi-logo.svg);
+}
+
+.cpp-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/cpp-logo.svg);
+}
+
+.dart-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/dart-logo.svg);
+}
+
+.confluence-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/confluence-logo.svg);
+}
+
+.clickup-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/clickup-logo.svg);
+}
+
+.cursor-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/cursor-logo.svg);
+}
+
+.claude-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/claude-logo.svg);
+}
+
+.csharp-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/csharp-logo.svg);
+}
+
+.dall-e-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/dall-e-logo.svg);
+}
+
+.chatgpt-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/chatgpt-logo.svg);
+}
+
+.capcut-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/capcut-logo.svg);
+}
+
+.buy-me-a-coffee-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/buy-me-a-coffee-logo.svg);
+}
+
+.bitcoin-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/bitcoin-logo.svg);
+}
+
+.adobe-express-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/adobe-express-logo.svg);
+}
+
+.zapier-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/zapier-logo.svg);
+}
+
+.web3js-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/web3js-logo.svg);
+}
+
+.vscode-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/vscode-logo.svg);
+}
+
+.verse-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/verse-logo.svg);
+}
+
+.vercel-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/vercel-logo.svg);
+}
+
+.zoom-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/zoom-logo.svg);
+}
+
+.three-d-printer-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/three-d-printer-logo.svg);
+}
+
+.scikit-learn-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/scikit-learn-logo.svg);
+}
+
+.rust-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/rust-logo.svg);
+}
+
+.runway-ai-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/runway-ai-logo.svg);
+}
+
+.robot-operating-system-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/robot-operating-system-logo.svg);
+}
+
+.trello-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/trello-logo.svg);
+}
+
+.toss-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/toss-logo.svg);
+}
+
+.discord-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/discord-logo.svg);
+}
+
+.dogecoin-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/dogecoin-logo.svg);
+}
+
+.elevenlabs-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/elevenlabs-logo.svg);
+}
+
+.electron-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/electron-logo.svg);
+}
+
+.tailwind-css-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/tailwind-css-logo.svg);
+}
+
+.tensorflow-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/tensorflow-logo.svg);
+}
+
+.unreal-engine-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/unreal-engine-logo.svg);
+}
+
+.unity-ml-agents-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/unity-ml-agents-logo.svg);
+}
+
+.unity-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/unity-logo.svg);
+}
+
+.supabase-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/supabase-logo.svg);
+}
+
+.suno-ai-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/suno-ai-logo.svg);
+}
+
+.sora-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/sora-logo.svg);
+}
+
+.sourcetree-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/sourcetree-logo.svg);
+}
+
+.react-unity-webgl-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/react-unity-webgl-logo.svg);
+}
+
+.react-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/react-logo.svg);
+}
+
+.react-native-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/react-native-logo.svg);
+}
+
+.sider-ai-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/sider-ai-logo.svg);
+}
+
+.shader-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/shader-logo.svg);
+}
+
+.shadcn-ui-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/shadcn-ui-logo.svg);
+}
+
+.seaborn-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/seaborn-logo.svg);
+}
+
+.raspberry-pi-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/raspberry-pi-logo.svg);
+}
+
+.py-torch-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/py-torch-logo.svg);
+}
+
+.slack-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/slack-logo.svg);
+}
+
+.solana-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/solana-logo.svg);
+}
+
+.solidity-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/solidity-logo.svg);
+}
+
+.redis-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/redis-logo.svg);
+}
+
+.sql-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/sql-logo.svg);
+}
+
+.stable-audio-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/stable-audio-logo.svg);
+}
+
+.streamlit-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/streamlit-logo.svg);
+}
+
+.stripe-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/stripe-logo.svg);
+}

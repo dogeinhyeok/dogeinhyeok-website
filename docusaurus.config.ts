@@ -99,11 +99,19 @@ const config: Config = {
           label: "Discord",
           href: discordUrl,
           position: "right",
+          logo: {
+            alt: "Discord Logo",
+            src: "img/logo.svg",
+          },
         },
         {
           label: "Patreon",
           href: patreonUrl,
           position: "right",
+          logo: {
+            alt: "Patreon Logo",
+            src: "img/logo/patreon-logo.svg",
+          },
         },
       ],
     },
@@ -115,7 +123,7 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
+              label: "Intro",
               to: "/docs/intro",
             },
           ],
