@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+sidebar_label: 파일 정리 규칙
+sidebar_class_name: dogeinhyeok-logo
 ---
 
 # 파일 정리 규칙

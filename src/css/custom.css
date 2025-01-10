@@ -53,11 +53,11 @@ li > a.menu__link {
   content: url(/img/logo/typescript-logo.svg);
 }
 
-.v0-logo a::before {
+.v0-dev-logo a::before {
   width: 1em;
   height: 1em;
   padding-right: 0.5rem;
-  content: url(/img/logo/v0-logo.svg);
+  content: url(/img/logo/v0-dev-logo.svg);
 }
 
 .open-ai-logo a::before {
@@ -291,11 +291,11 @@ li > a.menu__link {
   content: url(/img/logo/clickup-logo.svg);
 }
 
-.cursor-logo a::before {
+.cursor-ide-logo a::before {
   width: 1em;
   height: 1em;
   padding-right: 0.5rem;
-  content: url(/img/logo/cursor-logo.svg);
+  content: url(/img/logo/cursor-ide-logo.svg);
 }
 
 .claude-logo a::before {
@@ -653,4 +653,18 @@ li > a.menu__link {
   height: 1em;
   padding-right: 0.5rem;
   content: url(/img/logo/stripe-logo.svg);
+}
+
+.perplexity-ai-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/perplexity-ai-logo.svg);
+}
+
+.docusaurus-logo a::before {
+  width: 1em;
+  height: 1em;
+  padding-right: 0.5rem;
+  content: url(/img/logo/docusaurus-logo.svg);
 }

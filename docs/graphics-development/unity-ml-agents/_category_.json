@@ -4,5 +4,6 @@
   "link": {
     "type": "generated-index",
     "description": "Unity ML-Agents 관련 문서입니다."
-  }
+  },
+  "className": "unity-ml-agents-logo"
 }

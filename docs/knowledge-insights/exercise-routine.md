@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+sidebar_label: 운동 규칙
+sidebar_class_name: dogeinhyeok-logo
 ---
 
 # 운동 규칙

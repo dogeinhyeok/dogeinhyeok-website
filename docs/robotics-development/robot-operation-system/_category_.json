@@ -1,8 +1,9 @@
 {
-  "label": "Robot Operating System",
+  "label": "ROS",
   "position": 4,
   "link": {
     "type": "generated-index",
     "description": "Robot Operating System 관련 문서입니다."
-  }
+  },
+  "className": "robot-operating-system-logo"
 }

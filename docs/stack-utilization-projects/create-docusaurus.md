@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+sidebar_label: Docusaurus 기술 블로그 만들기
+sidebar_class_name: dogeinhyeok-logo
 ---
 
 # Docusaurus 기술 블로그 만들기
@@ -38,16 +40,16 @@ npx create-docusaurus@latest my-website classic
 ```
 
 설치 과정에서 JavaScript와 TypeScript 버전 중 선택할 수 있습니다. 이 가이드에서는 유지보수 편의성을 고려하여 TypeScript 버전으로 진행하겠습니다.
-![001](./img/001.png)
+![001](./img/create-docusaurus/001.png)
 `Happy building awesome websites!`라고 문구가 뜨면 설치 완료된것입니다.
-![002](./img/002.png)
+![002](./img/create-docusaurus/002.png)
 프로젝트 터미널에서 `npm i` 명령어를 실행하여 필요한 패키지를 설치합니다.
 
 ```bash
 npm i
 ```
 
-![003](./img/003.png)
+![003](./img/create-docusaurus/003.png)
 이후의 모든 작업은 프로젝트의 내부 터미널에서 진행합니다.
 
 ## Tailwind CSS 설치하기
@@ -94,7 +96,7 @@ module.exports = {
 };
 ```
 
-![004](./img/004.png)
+![004](./img/create-docusaurus/004.png)
 
 다음 명령어로 output.css 파일이 정상적으로 생성되는지 확인하여 `tailwind.config.js` 설정 파일이 올바르게 적용되었는지 검증합니다.
 
@@ -131,7 +133,7 @@ const config = {
 export default config;
 ```
 
-![005](./img/005.png)
+![005](./img/create-docusaurus/005.png)
 
 ### Tailwind CSS 불러오기 위한 전역 CSS 파일 수정
 
@@ -144,7 +146,7 @@ export default config;
 @tailwind utilities;
 ```
 
-![006](./img/006.png)
+![006](./img/create-docusaurus/006.png)
 
 ## Tailwind CSS 설정하기 - TypeScript편
 
@@ -190,7 +192,7 @@ const config: Config = {
 export default config;
 ```
 
-![007](./img/007.png)
+![007](./img/create-docusaurus/007.png)
 
 ### TypeScript 설정 반영
 
@@ -237,7 +239,7 @@ const config = {
 export default config;
 ```
 
-![008](./img/008.png)
+![008](./img/create-docusaurus/008.png)
 
 ## **Tailwind CSS 불러오기 위한 전역 CSS 파일 수정**
 
@@ -250,7 +252,7 @@ export default config;
 @tailwind utilities;
 ```
 
-![009](./img/009.png)
+![009](./img/create-docusaurus/009.png)
 
 ## **테스트하기**
 
@@ -277,11 +279,11 @@ return (
 </div>
 ```
 
-![010](./img/010.png)
+![010](./img/create-docusaurus/010.png)
 
-![011](./img/011.png)
+![011](./img/create-docusaurus/011.png)
 
-![012](./img/012.png)
+![012](./img/create-docusaurus/012.png)
 
 ## Utterances 댓글 기능 추가하기
 
