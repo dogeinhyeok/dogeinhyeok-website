@@ -1,6 +1,6 @@
 {
   "label": "ONNX",
-  "position": 4,
+  "position": 12,
   "link": {
     "type": "generated-index",
     "description": "ONNX 관련 문서입니다."
