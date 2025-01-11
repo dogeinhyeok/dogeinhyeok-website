@@ -35,10 +35,6 @@
 @tailwind utilities;
 
 /* logo svg setting */
-li > a.menu__link {
-  justify-content: flex-start;
-}
-
 .dogeinhyeok-logo a::before {
   width: 1em;
   height: 1em;
