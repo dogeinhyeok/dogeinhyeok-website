@@ -96,14 +96,29 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          label: "Discord",
-          href: discordUrl,
+          href: youtubeUrl,
           position: "right",
+          className: "navbar-youtube-icon",
+          "aria-label": "Youtube Icon",
         },
         {
-          label: "Patreon",
+          href: discordUrl,
+          position: "right",
+          className: "navbar-discord-icon",
+          "aria-label": "Discord Icon",
+        },
+        {
           href: patreonUrl,
           position: "right",
+          className: "navbar-patreon-icon",
+          "aria-label": "Patreon Icon",
+        },
+
+        {
+          href: githubUrl,
+          position: "right",
+          className: "navbar-github-icon",
+          "aria-label": "GitHub Icon",
         },
       ],
     },

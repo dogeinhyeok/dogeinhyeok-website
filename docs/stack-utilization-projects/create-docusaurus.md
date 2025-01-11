@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-sidebar_label: Docusaurus 기술 블로그 만들기
-sidebar_class_name: dogeinhyeok-logo
+sidebar_label: 기술 블로그 만들기
+sidebar_class_name: sidebar-dogeinhyeok-icon
 ---
 
 # Docusaurus 기술 블로그 만들기

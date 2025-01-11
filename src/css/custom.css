@@ -34,633 +34,504 @@
 @tailwind components;
 @tailwind utilities;
 
-/* logo svg setting */
-.dogeinhyeok-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/dogeinhyeok-logo.svg);
-}
-
-.typescript-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/typescript-logo.svg);
-}
-
-.v0-dev-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/v0-dev-logo.svg);
-}
-
-.open-ai-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/open-ai-logo.svg);
-}
-
-.oopy-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/oopy-logo.svg);
-}
-
-.next-js-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/next-js-logo.svg);
-}
-
-.napkin-ai-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/napkin-ai-logo.svg);
-}
-
-.midjourney-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/midjourney-logo.svg);
-}
-
-.matplotlib-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/matplotlib-logo.svg);
-}
-
-.flux-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/flux-logo.svg);
-}
-
-.make-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/make-logo.svg);
-}
-
-.flutter-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/flutter-logo.svg);
-}
-
-.lego-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/lego-logo.svg);
-}
-
-.onnx-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/onnx-logo.svg);
-}
-
-.langchain-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/langchain-logo.svg);
-}
-
-.pandas-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/pandas-logo.svg);
-}
-
-.python-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/python-logo.svg);
-}
-
-.jira-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/jira-logo.svg);
-}
-
-.google-drive-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/google-drive-logo.svg);
-}
-
-.javascript-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/javascript-logo.svg);
-}
-
-.google-sheet-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/google-sheet-logo.svg);
-}
-
-.patreon-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/patreon-logo.svg);
-}
-
-.obsidian-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/obsidian-logo.svg);
-}
-
-.notion-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/notion-logo.svg);
-}
-
-.gitbook-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/gitbook-logo.svg);
-}
-
-.github-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/github-logo.svg);
-}
-
-.gamma-ai-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/gamma-ai-logo.svg);
-}
-
-.flex-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/flex-logo.svg);
-}
-
-.git-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/git-logo.svg);
-}
-
-.firebase-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/firebase-logo.svg);
+/* Light mode icon */
+:root {
+  --perplexity-icon-url: url("/icon/light/perplexity.svg");
+  --v0-dev-icon-url: url("/icon/light/v0-dev.svg");
+  --runway-icon-url: url("/icon/light/runway.svg");
+  --pytorch-icon-url: url("/icon/light/pytorch.svg");
+  --youtube-icon-url: url("/icon/light/youtube.svg");
+  --docusaurus-icon-url: url("/icon/light/docusaurus.svg");
+  --dogeinhyeok-icon-url: url("/icon/light/dogeinhyeok.svg");
+  --open-ai-icon-url: url("/icon/light/open-ai.svg");
+  --oopy-icon-url: url("/icon/light/oopy.svg");
+  --nextjs-icon-url: url("/icon/light/nextjs.svg");
+  --napkin-icon-url: url("/icon/light/napkin.svg");
+  --midjourney-icon-url: url("/icon/light/midjourney.svg");
+  --matplotlib-icon-url: url("/icon/light/matplotlib.svg");
+  --flux-icon-url: url("/icon/light/flux.svg");
+  --make-icon-url: url("/icon/light/make.svg");
+  --flutter-icon-url: url("/icon/light/flutter.svg");
+  --lego-icon-url: url("/icon/light/lego.svg");
+  --onnx-icon-url: url("/icon/light/onnx.svg");
+  --langchain-icon-url: url("/icon/light/langchain.svg");
+  --pandas-icon-url: url("/icon/light/pandas.svg");
+  --python-icon-url: url("/icon/light/python.svg");
+  --jira-icon-url: url("/icon/light/jira.svg");
+  --google-drive-icon-url: url("/icon/light/google-drive.svg");
+  --javascript-icon-url: url("/icon/light/javascript.svg");
+  --google-sheet-icon-url: url("/icon/light/google-sheet.svg");
+  --patreon-icon-url: url("/icon/light/patreon.svg");
+  --obsidian-icon-url: url("/icon/light/obsidian.svg");
+  --notion-icon-url: url("/icon/light/notion.svg");
+  --gitbook-icon-url: url("/icon/light/gitbook.svg");
+  --github-icon-url: url("/icon/light/github.svg");
+  --gamma-icon-url: url("/icon/light/gamma.svg");
+  --git-icon-url: url("/icon/light/git.svg");
+  --firebase-icon-url: url("/icon/light/firebase.svg");
+  --figma-icon-url: url("/icon/light/figma.svg");
+  --fastapi-icon-url: url("/icon/light/fastapi.svg");
+  --cpp-icon-url: url("/icon/light/cpp.svg");
+  --dart-icon-url: url("/icon/light/dart.svg");
+  --confluence-icon-url: url("/icon/light/confluence.svg");
+  --clickup-icon-url: url("/icon/light/clickup.svg");
+  --cursor-ide-icon-url: url("/icon/light/cursor-ide.svg");
+  --claude-ai-icon-url: url("/icon/light/claude-ai.svg");
+  --csharp-icon-url: url("/icon/light/csharp.svg");
+  --dall-e-icon-url: url("/icon/light/dall-e.svg");
+  --chatgpt-icon-url: url("/icon/light/chatgpt.svg");
+  --capcut-icon-url: url("/icon/light/capcut.svg");
+  --buy-me-a-coffee-icon-url: url("/icon/light/buy-me-a-coffee.svg");
+  --bitcoin-icon-url: url("/icon/light/bitcoin.svg");
+  --adobe-express-icon-url: url("/icon/light/adobe-express.svg");
+  --zapier-icon-url: url("/icon/light/zapier.svg");
+  --web3js-icon-url: url("/icon/light/web3js.svg");
+  --vscode-icon-url: url("/icon/light/vscode.svg");
+  --verse-icon-url: url("/icon/light/verse.svg");
+  --vercel-icon-url: url("/icon/light/vercel.svg");
+  --zoom-icon-url: url("/icon/light/zoom.svg");
+  --three-d-printer-icon-url: url("/icon/light/three-d-printer.svg");
+  --scikit-learn-icon-url: url("/icon/light/scikit-learn.svg");
+  --rust-icon-url: url("/icon/light/rust.svg");
+  --ros-icon-url: url("/icon/light/ros.svg");
+  --trello-icon-url: url("/icon/light/trello.svg");
+  --toss-icon-url: url("/icon/light/toss.svg");
+  --discord-icon-url: url("/icon/light/discord.svg");
+  --dogecoin-icon-url: url("/icon/light/dogecoin.svg");
+  --elevenlabs-icon-url: url("/icon/light/elevenlabs.svg");
+  --electron-icon-url: url("/icon/light/electron.svg");
+  --tailwind-css-icon-url: url("/icon/light/tailwind-css.svg");
+  --tensorflow-icon-url: url("/icon/light/tensorflow.svg");
+  --unreal-engine-icon-url: url("/icon/light/unreal-engine.svg");
+  --unity-icon-url: url("/icon/light/unity.svg");
+  --supabase-icon-url: url("/icon/light/supabase.svg");
+  --typescript-icon-url: url("/icon/light/typescript.svg");
+  --suno-icon-url: url("/icon/light/suno.svg");
+  --sora-icon-url: url("/icon/light/sora.svg");
+  --sourcetree-icon-url: url("/icon/light/sourcetree.svg");
+  --react-unity-webgl-icon-url: url("/icon/light/react-unity-webgl.svg");
+  --react-icon-url: url("/icon/light/react.svg");
+  --sider-icon-url: url("/icon/light/sider.svg");
+  --shader-icon-url: url("/icon/light/shader.svg");
+  --shadcn-ui-icon-url: url("/icon/light/shadcn-ui.svg");
+  --seaborn-icon-url: url("/icon/light/seaborn.svg");
+  --raspberry-pi-icon-url: url("/icon/light/raspberry-pi.svg");
+  --slack-icon-url: url("/icon/light/slack.svg");
+  --solana-icon-url: url("/icon/light/solana.svg");
+  --solidity-icon-url: url("/icon/light/solidity.svg");
+  --redis-icon-url: url("/icon/light/redis.svg");
+  --sql-icon-url: url("/icon/light/sql.svg");
+  --stable-audio-icon-url: url("/icon/light/stable-audio.svg");
+  --streamlit-icon-url: url("/icon/light/streamlit.svg");
+  --stripe-icon-url: url("/icon/light/stripe.svg");
+}
+
+/* Dark mode icon */
+[data-theme="dark"] {
+  --perplexity-icon-url: url("/icon/dark/perplexity.svg");
+  --v0-dev-icon-url: url("/icon/dark/v0-dev.svg");
+  --runway-icon-url: url("/icon/dark/runway.svg");
+  --pytorch-icon-url: url("/icon/dark/pytorch.svg");
+  --youtube-icon-url: url("/icon/dark/youtube.svg");
+  --docusaurus-icon-url: url("/icon/dark/docusaurus.svg");
+  --dogeinhyeok-icon-url: url("/icon/dark/dogeinhyeok.svg");
+  --open-ai-icon-url: url("/icon/dark/open-ai.svg");
+  --oopy-icon-url: url("/icon/dark/oopy.svg");
+  --nextjs-icon-url: url("/icon/dark/nextjs.svg");
+  --napkin-icon-url: url("/icon/dark/napkin.svg");
+  --midjourney-icon-url: url("/icon/dark/midjourney.svg");
+  --matplotlib-icon-url: url("/icon/dark/matplotlib.svg");
+  --flux-icon-url: url("/icon/dark/flux.svg");
+  --make-icon-url: url("/icon/dark/make.svg");
+  --flutter-icon-url: url("/icon/dark/flutter.svg");
+  --lego-icon-url: url("/icon/dark/lego.svg");
+  --onnx-icon-url: url("/icon/dark/onnx.svg");
+  --langchain-icon-url: url("/icon/dark/langchain.svg");
+  --pandas-icon-url: url("/icon/dark/pandas.svg");
+  --python-icon-url: url("/icon/dark/python.svg");
+  --jira-icon-url: url("/icon/dark/jira.svg");
+  --google-drive-icon-url: url("/icon/dark/google-drive.svg");
+  --javascript-icon-url: url("/icon/dark/javascript.svg");
+  --google-sheet-icon-url: url("/icon/dark/google-sheet.svg");
+  --patreon-icon-url: url("/icon/dark/patreon.svg");
+  --obsidian-icon-url: url("/icon/dark/obsidian.svg");
+  --notion-icon-url: url("/icon/dark/notion.svg");
+  --gitbook-icon-url: url("/icon/dark/gitbook.svg");
+  --github-icon-url: url("/icon/dark/github.svg");
+  --gamma-icon-url: url("/icon/dark/gamma.svg");
+  --git-icon-url: url("/icon/dark/git.svg");
+  --firebase-icon-url: url("/icon/dark/firebase.svg");
+  --figma-icon-url: url("/icon/dark/figma.svg");
+  --fastapi-icon-url: url("/icon/dark/fastapi.svg");
+  --cpp-icon-url: url("/icon/dark/cpp.svg");
+  --confluence-icon-url: url("/icon/dark/confluence.svg");
+  --clickup-icon-url: url("/icon/dark/clickup.svg");
+  --cursor-ide-icon-url: url("/icon/dark/cursor-ide.svg");
+  --claude-ai-icon-url: url("/icon/dark/claude-ai.svg");
+  --csharp-icon-url: url("/icon/dark/csharp.svg");
+  --dall-e-icon-url: url("/icon/dark/dall-e.svg");
+  --chatgpt-icon-url: url("/icon/dark/chatgpt.svg");
+  --capcut-icon-url: url("/icon/dark/capcut.svg");
+  --buy-me-a-coffee-icon-url: url("/icon/dark/buy-me-a-coffee.svg");
+  --bitcoin-icon-url: url("/icon/dark/bitcoin.svg");
+  --adobe-express-icon-url: url("/icon/dark/adobe-express.svg");
+  --zapier-icon-url: url("/icon/dark/zapier.svg");
+  --web3js-icon-url: url("/icon/dark/web3js.svg");
+  --vscode-icon-url: url("/icon/dark/vscode.svg");
+  --verse-icon-url: url("/icon/dark/verse.svg");
+  --vercel-icon-url: url("/icon/dark/vercel.svg");
+  --zoom-icon-url: url("/icon/dark/zoom.svg");
+  --three-d-printer-icon-url: url("/icon/dark/three-d-printer.svg");
+  --scikit-learn-icon-url: url("/icon/dark/scikit-learn.svg");
+  --rust-icon-url: url("/icon/dark/rust.svg");
+  --ros-icon-url: url("/icon/dark/ros.svg");
+  --trello-icon-url: url("/icon/dark/trello.svg");
+  --toss-icon-url: url("/icon/dark/toss.svg");
+  --discord-icon-url: url("/icon/dark/discord.svg");
+  --dogecoin-icon-url: url("/icon/dark/dogecoin.svg");
+  --elevenlabs-icon-url: url("/icon/dark/elevenlabs.svg");
+  --electron-icon-url: url("/icon/dark/electron.svg");
+  --tailwind-css-icon-url: url("/icon/dark/tailwind-css.svg");
+  --tensorflow-icon-url: url("/icon/dark/tensorflow.svg");
+  --unreal-engine-icon-url: url("/icon/dark/unreal-engine.svg");
+  --unity-icon-url: url("/icon/dark/unity.svg");
+  --supabase-icon-url: url("/icon/dark/supabase.svg");
+  --typescript-icon-url: url("/icon/dark/typescript.svg");
+  --suno-icon-url: url("/icon/dark/suno.svg");
+  --sora-icon-url: url("/icon/dark/sora.svg");
+  --sourcetree-icon-url: url("/icon/dark/sourcetree.svg");
+  --react-unity-webgl-icon-url: url("/icon/dark/react-unity-webgl.svg");
+  --react-icon-url: url("/icon/dark/react.svg");
+  --sider-icon-url: url("/icon/dark/sider.svg");
+  --shader-icon-url: url("/icon/dark/shader.svg");
+  --shadcn-ui-icon-url: url("/icon/dark/shadcn-ui.svg");
+  --seaborn-icon-url: url("/icon/dark/seaborn.svg");
+  --raspberry-pi-icon-url: url("/icon/dark/raspberry-pi.svg");
+  --slack-icon-url: url("/icon/dark/slack.svg");
+  --solana-icon-url: url("/icon/dark/solana.svg");
+  --solidity-icon-url: url("/icon/dark/solidity.svg");
+  --redis-icon-url: url("/icon/dark/redis.svg");
+  --sql-icon-url: url("/icon/dark/sql.svg");
+  --stable-audio-icon-url: url("/icon/dark/stable-audio.svg");
+  --streamlit-icon-url: url("/icon/dark/streamlit.svg");
+  --stripe-icon-url: url("/icon/dark/stripe.svg");
+}
+
+/* navbar icon */
+.navbar-discord-icon {
+  background: var(--discord-icon-url) no-repeat;
+}
+
+.navbar-patreon-icon {
+  background: var(--patreon-icon-url) no-repeat;
 }
 
-.figma-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/figma-logo.svg);
+.navbar-youtube-icon {
+  background: var(--youtube-icon-url) no-repeat;
 }
 
-.fastapi-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/fastapi-logo.svg);
+.navbar-github-icon {
+  background: var(--github-icon-url) no-repeat;
 }
 
-.cpp-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/cpp-logo.svg);
+/* navbar icon size*/
+.navbar-discord-icon,
+.navbar-patreon-icon,
+.navbar-youtube-icon,
+.navbar-github-icon {
+  display: flex;
+  height: 24px;
+  width: 24px;
+  background-size: contain;
+  margin-right: 16px;
 }
 
-.dart-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/dart-logo.svg);
+/* navbar icon hover*/
+.navbar-discord-icon:hover,
+.navbar-patreon-icon:hover,
+.navbar-youtube-icon:hover,
+.navbar-github-icon:hover {
+  opacity: 0.6;
 }
 
-.confluence-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/confluence-logo.svg);
+/* last icon margin */
+.navbar-github-icon {
+  margin-right: 32px;
 }
 
-.clickup-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/clickup-logo.svg);
+/* sidebar icon */
+.sidebar-open-ai-icon a::before {
+  content: var(--open-ai-icon-url);
 }
 
-.cursor-ide-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/cursor-ide-logo.svg);
+.sidebar-toss-icon a::before {
+  content: var(--toss-icon-url);
 }
 
-.claude-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/claude-logo.svg);
+.sidebar-web3js-icon a::before {
+  content: var(--web3js-icon-url);
 }
 
-.csharp-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/csharp-logo.svg);
+.sidebar-docusaurus-icon a::before {
+  content: var(--docusaurus-icon-url);
 }
 
-.dall-e-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/dall-e-logo.svg);
+.sidebar-tailwind-css-icon a::before {
+  content: var(--tailwind-css-icon-url);
 }
 
-.chatgpt-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/chatgpt-logo.svg);
+.sidebar-vercel-icon a::before {
+  content: var(--vercel-icon-url);
 }
 
-.capcut-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/capcut-logo.svg);
+.sidebar-react-icon a::before {
+  content: var(--react-icon-url);
 }
 
-.buy-me-a-coffee-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/buy-me-a-coffee-logo.svg);
+.sidebar-react-native-icon a::before {
+  content: var(--react-native-icon-url);
 }
 
-.bitcoin-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/bitcoin-logo.svg);
+.sidebar-shadcn-ui-icon a::before {
+  content: var(--shadcn-ui-icon-url);
 }
 
-.adobe-express-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/adobe-express-logo.svg);
+.sidebar-electron-icon a::before {
+  content: var(--electron-icon-url);
 }
 
-.zapier-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/zapier-logo.svg);
+.sidebar-javascript-icon a::before {
+  content: var(--javascript-icon-url);
 }
 
-.web3js-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/web3js-logo.svg);
+.sidebar-nextjs-icon a::before {
+  content: var(--nextjs-icon-url);
 }
 
-.vscode-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/vscode-logo.svg);
+.sidebar-typescript-icon a::before {
+  content: var(--typescript-icon-url);
 }
 
-.verse-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/verse-logo.svg);
+.sidebar-make-icon a::before {
+  content: var(--make-icon-url);
 }
 
-.vercel-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/vercel-logo.svg);
+.sidebar-zoom-icon a::before {
+  content: var(--zoom-icon-url);
 }
 
-.zoom-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/zoom-logo.svg);
+.sidebar-discord-icon a::before {
+  content: var(--discord-icon-url);
 }
 
-.three-d-printer-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/three-d-printer-logo.svg);
+.sidebar-github-icon a::before {
+  content: var(--github-icon-url);
 }
 
-.scikit-learn-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/scikit-learn-logo.svg);
+.sidebar-google-workspace-icon a::before {
+  content: var(--google-drive-icon-url);
 }
 
-.rust-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/rust-logo.svg);
+.sidebar-clickup-icon a::before {
+  content: var(--clickup-icon-url);
 }
 
-.runway-ai-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/runway-ai-logo.svg);
+.sidebar-perplexity-icon a::before {
+  content: var(--perplexity-icon-url);
 }
 
-.robot-operating-system-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/robot-operating-system-logo.svg);
+.sidebar-sider-icon a::before {
+  content: var(--sider-icon-url);
 }
 
-.trello-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/trello-logo.svg);
+.sidebar-v0-dev-icon a::before {
+  content: var(--v0-dev-icon-url);
 }
 
-.toss-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/toss-logo.svg);
+.sidebar-figma-icon a::before {
+  content: var(--figma-icon-url);
 }
 
-.discord-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/discord-logo.svg);
+.sidebar-gamma-icon a::before {
+  content: var(--gamma-icon-url);
 }
 
-.dogecoin-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/dogecoin-logo.svg);
+.sidebar-napkin-icon a::before {
+  content: var(--napkin-icon-url);
 }
 
-.elevenlabs-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/elevenlabs-logo.svg);
+.sidebar-adobe-express-icon a::before {
+  content: var(--adobe-express-icon-url);
 }
 
-.electron-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/electron-logo.svg);
+.sidebar-capcut-icon a::before {
+  content: var(--capcut-icon-url);
 }
 
-.tailwind-css-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/tailwind-css-logo.svg);
+.sidebar-chatgpt-icon a::before {
+  content: var(--chatgpt-icon-url);
 }
 
-.tensorflow-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/tensorflow-logo.svg);
+.sidebar-lego-icon a::before {
+  content: var(--lego-icon-url);
 }
 
-.unreal-engine-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/unreal-engine-logo.svg);
+.sidebar-raspberry-pi-icon a::before {
+  content: var(--raspberry-pi-icon-url);
 }
 
-.unity-ml-agents-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/unity-ml-agents-logo.svg);
+.sidebar-robot-operation-system-icon a::before {
+  content: var(--robot-operation-system-icon-url);
 }
 
-.unity-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/unity-logo.svg);
+.sidebar-three-d-printer-icon a::before {
+  content: var(--three-d-printer-icon-url);
 }
 
-.supabase-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/supabase-logo.svg);
+.sidebar-onnx-icon a::before {
+  content: var(--onnx-icon-url);
 }
 
-.suno-ai-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/suno-ai-logo.svg);
+.sidebar-pytorch-icon a::before {
+  content: var(--pytorch-icon-url);
 }
 
-.sora-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/sora-logo.svg);
+.sidebar-tensorflow-icon a::before {
+  content: var(--tensorflow-icon-url);
 }
 
-.sourcetree-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/sourcetree-logo.svg);
+.sidebar-langchain-icon a::before {
+  content: var(--langchain-icon-url);
 }
 
-.react-unity-webgl-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/react-unity-webgl-logo.svg);
+.sidebar-streamlit-icon a::before {
+  content: var(--streamlit-icon-url);
 }
 
-.react-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/react-logo.svg);
+.sidebar-supabase-icon a::before {
+  content: var(--supabase-icon-url);
 }
 
-.react-native-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/react-native-logo.svg);
+.sidebar-python-icon a::before {
+  content: var(--python-icon-url);
 }
 
-.sider-ai-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/sider-ai-logo.svg);
+.sidebar-scikit-learn-icon a::before {
+  content: var(--scikit-learn-icon-url);
 }
 
-.shader-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/shader-logo.svg);
+.sidebar-sql-icon a::before {
+  content: var(--sql-icon-url);
 }
 
-.shadcn-ui-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/shadcn-ui-logo.svg);
+.sidebar-fastapi-icon a::before {
+  content: var(--fastapi-icon-url);
 }
 
-.seaborn-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/seaborn-logo.svg);
+.sidebar-firebase-icon a::before {
+  content: var(--firebase-icon-url);
 }
 
-.raspberry-pi-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/raspberry-pi-logo.svg);
+.sidebar-pandas-icon a::before {
+  content: var(--pandas-icon-url);
 }
 
-.py-torch-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/py-torch-logo.svg);
+.sidebar-unity-icon a::before {
+  content: var(--unity-icon-url);
 }
 
-.slack-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/slack-logo.svg);
+.sidebar-unity-ml-agents-icon a::before {
+  content: var(--unity-ml-agents-icon-url);
 }
 
-.solana-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/solana-logo.svg);
+.sidebar-csharp-icon a::before {
+  content: var(--csharp-icon-url);
 }
 
-.solidity-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/solidity-logo.svg);
+.sidebar-react-unity-webgl-icon a::before {
+  content: var(--react-unity-webgl-icon-url);
 }
 
-.redis-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/redis-logo.svg);
+.sidebar-shader-icon a::before {
+  content: var(--shader-icon-url);
 }
 
-.sql-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/sql-logo.svg);
+.sidebar-git-icon a::before {
+  content: var(--git-icon-url);
 }
 
-.stable-audio-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/stable-audio-logo.svg);
+.sidebar-sourcetree-icon a::before {
+  content: var(--sourcetree-icon-url);
 }
 
-.streamlit-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/streamlit-logo.svg);
+.sidebar-cursor-ide-icon a::before {
+  content: var(--cursor-ide-icon-url);
 }
 
-.stripe-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/stripe-logo.svg);
+.sidebar-ros-icon a::before {
+  content: var(--ros-icon-url);
 }
 
-.perplexity-ai-logo a::before {
-  width: 1em;
-  height: 1em;
-  padding-right: 0.5rem;
-  content: url(/img/logo/perplexity-ai-logo.svg);
+.sidebar-dogeinhyeok-icon a::before {
+  content: var(--dogeinhyeok-icon-url);
 }
 
-.docusaurus-logo a::before {
+/* sidebar icon size */
+.sidebar-open-ai-icon a::before,
+.sidebar-toss-icon a::before,
+.sidebar-web3js-icon a::before,
+.sidebar-docusaurus-icon a::before,
+.sidebar-tailwind-css-icon a::before,
+.sidebar-vercel-icon a::before,
+.sidebar-react-icon a::before,
+.sidebar-react-native-icon a::before,
+.sidebar-shadcn-ui-icon a::before,
+.sidebar-electron-icon a::before,
+.sidebar-javascript-icon a::before,
+.sidebar-nextjs-icon a::before,
+.sidebar-typescript-icon a::before,
+.sidebar-make-icon a::before,
+.sidebar-zoom-icon a::before,
+.sidebar-discord-icon a::before,
+.sidebar-github-icon a::before,
+.sidebar-google-workspace-icon a::before,
+.sidebar-clickup-icon a::before,
+.sidebar-perplexity-icon a::before,
+.sidebar-sider-icon a::before,
+.sidebar-v0-dev-icon a::before,
+.sidebar-figma-icon a::before,
+.sidebar-gamma-icon a::before,
+.sidebar-napkin-icon a::before,
+.sidebar-adobe-express-icon a::before,
+.sidebar-capcut-icon a::before,
+.sidebar-chatgpt-icon a::before,
+.sidebar-lego-icon a::before,
+.sidebar-raspberry-pi-icon a::before,
+.sidebar-robot-operation-system-icon a::before,
+.sidebar-three-d-printer-icon a::before,
+.sidebar-onnx-icon a::before,
+.sidebar-pytorch-icon a::before,
+.sidebar-tensorflow-icon a::before,
+.sidebar-langchain-icon a::before,
+.sidebar-streamlit-icon a::before,
+.sidebar-supabase-icon a::before,
+.sidebar-python-icon a::before,
+.sidebar-scikit-learn-icon a::before,
+.sidebar-sql-icon a::before,
+.sidebar-fastapi-icon a::before,
+.sidebar-firebase-icon a::before,
+.sidebar-pandas-icon a::before,
+.sidebar-unity-icon a::before,
+.sidebar-unity-ml-agents-icon a::before,
+.sidebar-csharp-icon a::before,
+.sidebar-react-unity-webgl-icon a::before,
+.sidebar-shader-icon a::before,
+.sidebar-git-icon a::before,
+.sidebar-sourcetree-icon a::before,
+.sidebar-cursor-ide-icon a::before,
+.sidebar-ros-icon a::before,
+.sidebar-dogeinhyeok-icon a::before {
   width: 1em;
   height: 1em;
   padding-right: 0.5rem;
-  content: url(/img/logo/docusaurus-logo.svg);
 }

@@ -1,9 +1,9 @@
 {
   "label": "TypeScript",
   "position": 2,
-  "className": "typescript-logo",
   "link": {
     "type": "generated-index",
     "description": "TypeScript 관련 문서입니다."
-  }
+  },
+  "className": "sidebar-typescript-icon"
 }
