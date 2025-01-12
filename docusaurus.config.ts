@@ -185,6 +185,12 @@ const config: Config = {
     googleAdsense: {
       dataAdClient: process.env.GOOGLE_ADSENSE_ID,
     },
+    metadata: [
+      {
+        name: "naver-site-verification",
+        content: process.env.NAVER_SEARCH_ADVISOR_ID,
+      },
+    ],
   } satisfies Preset.ThemeConfig,
   plugins: [
     async function tailwindPlugin(context, options) {
