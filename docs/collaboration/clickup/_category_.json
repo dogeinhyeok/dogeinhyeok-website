@@ -1,9 +1,0 @@
-{
-  "label": "ClickUp",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "ClickUp 관련 문서입니다."
-  },
-  "className": "sidebar-clickup-icon"
-}

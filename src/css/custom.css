@@ -476,6 +476,14 @@
   content: var(--dogeinhyeok-icon-url);
 }
 
+.sidebar-notion-icon a::before {
+  content: var(--notion-icon-url);
+}
+
+.sidebar-slack-icon a::before {
+  content: var(--slack-icon-url);
+}
+
 /* sidebar icon size */
 .sidebar-open-ai-icon a::before,
 .sidebar-toss-icon a::before,
@@ -530,7 +538,9 @@
 .sidebar-sourcetree-icon a::before,
 .sidebar-cursor-ide-icon a::before,
 .sidebar-ros-icon a::before,
-.sidebar-dogeinhyeok-icon a::before {
+.sidebar-dogeinhyeok-icon a::before,
+.sidebar-notion-icon a::before,
+.sidebar-slack-icon a::before {
   width: 1em;
   height: 1em;
   padding-right: 0.5rem;

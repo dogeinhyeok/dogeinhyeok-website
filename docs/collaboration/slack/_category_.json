@@ -1,0 +1,9 @@
+{
+  "label": "Slack",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Slack 관련 문서입니다."
+  },
+  "className": "sidebar-slack-icon"
+}

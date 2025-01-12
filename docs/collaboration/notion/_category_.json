@@ -1,0 +1,9 @@
+{
+  "label": "Notion",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Notion 관련 문서입니다."
+  },
+  "className": "sidebar-notion-icon"
+}
