@@ -74,6 +74,10 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        gtag: {
+          trackingID: process.env.G_ANALYTICS_ID, // 환경 변수 사용
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
