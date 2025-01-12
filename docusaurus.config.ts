@@ -75,7 +75,7 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         gtag: {
-          trackingID: process.env.G_ANALYTICS_ID, // 환경 변수 사용
+          trackingID: process.env.GOOGLE_ANALYTICS_ID, // 환경 변수 사용
           anonymizeIP: true,
         },
       } satisfies Preset.Options,
@@ -182,6 +182,9 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    googleAdsense: {
+      dataAdClient: process.env.GOOGLE_ADSENSE_ID,
+    },
   } satisfies Preset.ThemeConfig,
   plugins: [
     async function tailwindPlugin(context, options) {
@@ -202,6 +205,7 @@ const config: Config = {
         mode: "auto",
       },
     ],
+    ["docusaurus-plugin-google-adsense"],
   ],
   themes: ["@docusaurus/theme-mermaid"],
   // In order for Mermaid code blocks in Markdown to work,
