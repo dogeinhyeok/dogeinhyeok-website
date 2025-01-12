@@ -205,7 +205,6 @@ const config: Config = {
         mode: "auto",
       },
     ],
-    ["docusaurus-plugin-google-adsense"],
   ],
   themes: ["@docusaurus/theme-mermaid"],
   // In order for Mermaid code blocks in Markdown to work,
