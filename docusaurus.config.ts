@@ -191,26 +191,19 @@ const config: Config = {
         },
       };
     },
+    [
+      "docusaurus2-dotenv",
+      {
+        path: "./.env", // .env 파일의 경로
+        systemvars: true, // 시스템 환경 변수도 로드할지 여부
+      },
+    ],
   ],
   themes: ["@docusaurus/theme-mermaid"],
   // In order for Mermaid code blocks in Markdown to work,
   // you also need to enable the Remark plugin with this option
   markdown: {
     mermaid: true,
-  },
-  customFields: {
-    // Put your custom environment here
-    giscusRepo: process.env.GISCUS_REPO,
-    giscusRepoId: process.env.GISCUS_REPO_ID,
-    giscusCategory: process.env.GISCUS_CATEGORY,
-    giscusCategoryId: process.env.GISCUS_CATEGORY_ID,
-    giscusMapping: process.env.GISCUS_MAPPING,
-    giscusTerm: process.env.GISCUS_TERM,
-    giscusStrict: process.env.GISCUS_STRICT,
-    giscusReactionsEnabled: process.env.GISCUS_REACTIONS_ENABLED,
-    giscusEmitMetadata: process.env.GISCUS_EMIT_METADATA,
-    giscusInputPosition: process.env.GISCUS_INPUT_POSITION,
-    giscusLang: process.env.GISCUS_LANG,
   },
 };
 
