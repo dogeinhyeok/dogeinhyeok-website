@@ -25,7 +25,7 @@ const GiscusComponent: React.FC<GiscusComponentProps> = ({ style }) => {
     giscusEmitMetadata,
     giscusInputPosition,
     giscusLang,
-  } = siteConfig.customFields;
+  } = siteConfig.customFields; // 환경 변수 로드
 
   return (
     <div style={style}>
