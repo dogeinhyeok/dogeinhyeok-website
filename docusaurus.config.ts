@@ -8,6 +8,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import "dotenv/config";
 
 // 이 코드는 Node.js에서 실행됩니다 - 클라이언트 측 코드(브라우저 API, JSX 등)를 사용하지 마세요.
 const websiteUrl = "https://dogeinhyeok.com";
@@ -196,6 +197,20 @@ const config: Config = {
   // you also need to enable the Remark plugin with this option
   markdown: {
     mermaid: true,
+  },
+  customFields: {
+    // Put your custom environment here
+    giscusRepo: process.env.GISCUS_REPO,
+    giscusRepoId: process.env.GISCUS_REPO_ID,
+    giscusCategory: process.env.GISCUS_CATEGORY,
+    giscusCategoryId: process.env.GISCUS_CATEGORY_ID,
+    giscusMapping: process.env.GISCUS_MAPPING,
+    giscusTerm: process.env.GISCUS_TERM,
+    giscusStrict: process.env.GISCUS_STRICT,
+    giscusReactionsEnabled: process.env.GISCUS_REACTIONS_ENABLED,
+    giscusEmitMetadata: process.env.GISCUS_EMIT_METADATA,
+    giscusInputPosition: process.env.GISCUS_INPUT_POSITION,
+    giscusLang: process.env.GISCUS_LANG,
   },
 };
 
