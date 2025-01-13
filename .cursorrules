@@ -162,22 +162,22 @@
 
 ## 커밋 메시지 예시
 
-- init/project-setup: 초기 프로젝트 설정
+- init/project: 초기 프로젝트 설정
 - init/readme: README 파일 작성
-- feat/login-api: 로그인 API 추가
+- feat/api/login: 로그인 API 추가
 - feat/user-profile: 사용자 프로필 기능 구현
-- fix/login-error: 로그인 에러 수정
-- fix/form-validation: 폼 검증 로직 수정
-- docs/api-docs: API 문서 업데이트
-- docs/readme: README 설명 추가
-- refactor/user-auth: 사용자 인증 로직 리팩토링
-- refactor/db-schema: 데이터베이스 스키마 최적화
-- style/navbar-css: 네비게이션 바 CSS 스타일 수정
-- style/code-formatting: 코드 포맷팅 변경
-- test/login-api: 로그인 API 테스트 추가
-- test/unit-tests: 유닛 테스트 개선
-- chore/package-update: 패키지 업데이트
-- chore/env-setup: 환경 설정 변경
+- fix/api/login/error: 로그인 에러 수정
+- fix/api/form/validation: 폼 검증 로직 수정
+- docs/api: API 문서 업데이트
+- docs/readme: Document에 README 설명 추가
+- refactor/user/auth: 사용자 인증 로직 리팩토링
+- refactor/database/schema: 데이터베이스 스키마 최적화
+- style/navbar/css: 네비게이션 바 CSS 스타일 수정
+- style/codes/formatting: 코드 포맷팅 변경
+- test/login/api: 로그인 API 테스트 추가
+- test/unit: 유닛 테스트 기능 추가
+- chore/package/update: 패키지 업데이트
+- chore/env/setup: 환경 설정 변경
 
 ## 블로그 내용 작성 팁
 
