@@ -165,7 +165,7 @@
 - init/project: 초기 프로젝트 설정
 - init/readme: README 파일 작성
 - feat/api/login: 로그인 API 추가
-- feat/user-profile: 사용자 프로필 기능 구현
+- feat/profile: 사용자 프로필 기능 구현
 - fix/api/login/error: 로그인 에러 수정
 - fix/api/form/validation: 폼 검증 로직 수정
 - docs/api: API 문서 업데이트
