@@ -1,6 +1,6 @@
 {
   "label": "PyTorch",
-  "position": 11,
+  "position": 9,
   "link": {
     "type": "generated-index",
     "description": "PyTorch 관련 문서입니다."
