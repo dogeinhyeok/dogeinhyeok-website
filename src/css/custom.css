@@ -34,514 +34,819 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Light mode icon */
-:root {
-  --perplexity-icon-url: url("/icon/light/perplexity.svg");
-  --v0-dev-icon-url: url("/icon/light/v0-dev.svg");
-  --runway-icon-url: url("/icon/light/runway.svg");
-  --pytorch-icon-url: url("/icon/light/pytorch.svg");
-  --youtube-icon-url: url("/icon/light/youtube.svg");
-  --docusaurus-icon-url: url("/icon/light/docusaurus.svg");
-  --dogeinhyeok-icon-url: url("/icon/light/dogeinhyeok.svg");
-  --open-ai-icon-url: url("/icon/light/open-ai.svg");
-  --oopy-icon-url: url("/icon/light/oopy.svg");
-  --nextjs-icon-url: url("/icon/light/nextjs.svg");
-  --napkin-icon-url: url("/icon/light/napkin.svg");
-  --midjourney-icon-url: url("/icon/light/midjourney.svg");
-  --matplotlib-icon-url: url("/icon/light/matplotlib.svg");
-  --flux-icon-url: url("/icon/light/flux.svg");
-  --make-icon-url: url("/icon/light/make.svg");
-  --flutter-icon-url: url("/icon/light/flutter.svg");
-  --lego-icon-url: url("/icon/light/lego.svg");
-  --onnx-icon-url: url("/icon/light/onnx.svg");
-  --langchain-icon-url: url("/icon/light/langchain.svg");
-  --pandas-icon-url: url("/icon/light/pandas.svg");
-  --python-icon-url: url("/icon/light/python.svg");
-  --jira-icon-url: url("/icon/light/jira.svg");
-  --google-drive-icon-url: url("/icon/light/google-drive.svg");
-  --javascript-icon-url: url("/icon/light/javascript.svg");
-  --google-sheet-icon-url: url("/icon/light/google-sheet.svg");
-  --patreon-icon-url: url("/icon/light/patreon.svg");
-  --obsidian-icon-url: url("/icon/light/obsidian.svg");
-  --notion-icon-url: url("/icon/light/notion.svg");
-  --gitbook-icon-url: url("/icon/light/gitbook.svg");
-  --github-icon-url: url("/icon/light/github.svg");
-  --gamma-icon-url: url("/icon/light/gamma.svg");
-  --git-icon-url: url("/icon/light/git.svg");
-  --firebase-icon-url: url("/icon/light/firebase.svg");
-  --figma-icon-url: url("/icon/light/figma.svg");
-  --fastapi-icon-url: url("/icon/light/fastapi.svg");
-  --cpp-icon-url: url("/icon/light/cpp.svg");
-  --dart-icon-url: url("/icon/light/dart.svg");
-  --confluence-icon-url: url("/icon/light/confluence.svg");
-  --clickup-icon-url: url("/icon/light/clickup.svg");
-  --cursor-ide-icon-url: url("/icon/light/cursor-ide.svg");
-  --claude-ai-icon-url: url("/icon/light/claude-ai.svg");
-  --csharp-icon-url: url("/icon/light/csharp.svg");
-  --dall-e-icon-url: url("/icon/light/dall-e.svg");
-  --chatgpt-icon-url: url("/icon/light/chatgpt.svg");
-  --capcut-icon-url: url("/icon/light/capcut.svg");
-  --buy-me-a-coffee-icon-url: url("/icon/light/buy-me-a-coffee.svg");
-  --bitcoin-icon-url: url("/icon/light/bitcoin.svg");
-  --adobe-express-icon-url: url("/icon/light/adobe-express.svg");
-  --zapier-icon-url: url("/icon/light/zapier.svg");
-  --web3js-icon-url: url("/icon/light/web3js.svg");
-  --vscode-icon-url: url("/icon/light/vscode.svg");
-  --verse-icon-url: url("/icon/light/verse.svg");
-  --vercel-icon-url: url("/icon/light/vercel.svg");
-  --zoom-icon-url: url("/icon/light/zoom.svg");
-  --three-d-printer-icon-url: url("/icon/light/three-d-printer.svg");
-  --scikit-learn-icon-url: url("/icon/light/scikit-learn.svg");
-  --rust-icon-url: url("/icon/light/rust.svg");
-  --ros-icon-url: url("/icon/light/ros.svg");
-  --trello-icon-url: url("/icon/light/trello.svg");
-  --toss-icon-url: url("/icon/light/toss.svg");
-  --discord-icon-url: url("/icon/light/discord.svg");
-  --dogecoin-icon-url: url("/icon/light/dogecoin.svg");
-  --elevenlabs-icon-url: url("/icon/light/elevenlabs.svg");
-  --electron-icon-url: url("/icon/light/electron.svg");
-  --tailwind-css-icon-url: url("/icon/light/tailwind-css.svg");
-  --tensorflow-icon-url: url("/icon/light/tensorflow.svg");
-  --unreal-engine-icon-url: url("/icon/light/unreal-engine.svg");
-  --unity-icon-url: url("/icon/light/unity.svg");
-  --supabase-icon-url: url("/icon/light/supabase.svg");
-  --typescript-icon-url: url("/icon/light/typescript.svg");
-  --suno-icon-url: url("/icon/light/suno.svg");
-  --sora-icon-url: url("/icon/light/sora.svg");
-  --sourcetree-icon-url: url("/icon/light/sourcetree.svg");
-  --react-unity-webgl-icon-url: url("/icon/light/react-unity-webgl.svg");
-  --react-icon-url: url("/icon/light/react.svg");
-  --sider-icon-url: url("/icon/light/sider.svg");
-  --shader-icon-url: url("/icon/light/shader.svg");
-  --shadcn-ui-icon-url: url("/icon/light/shadcn-ui.svg");
-  --seaborn-icon-url: url("/icon/light/seaborn.svg");
-  --raspberry-pi-icon-url: url("/icon/light/raspberry-pi.svg");
-  --slack-icon-url: url("/icon/light/slack.svg");
-  --solana-icon-url: url("/icon/light/solana.svg");
-  --solidity-icon-url: url("/icon/light/solidity.svg");
-  --redis-icon-url: url("/icon/light/redis.svg");
-  --sql-icon-url: url("/icon/light/sql.svg");
-  --stable-audio-icon-url: url("/icon/light/stable-audio.svg");
-  --streamlit-icon-url: url("/icon/light/streamlit.svg");
-  --stripe-icon-url: url("/icon/light/stripe.svg");
-}
-
-/* Dark mode icon */
-[data-theme="dark"] {
-  --perplexity-icon-url: url("/icon/dark/perplexity.svg");
-  --v0-dev-icon-url: url("/icon/dark/v0-dev.svg");
-  --runway-icon-url: url("/icon/dark/runway.svg");
-  --pytorch-icon-url: url("/icon/dark/pytorch.svg");
-  --youtube-icon-url: url("/icon/dark/youtube.svg");
-  --docusaurus-icon-url: url("/icon/dark/docusaurus.svg");
-  --dogeinhyeok-icon-url: url("/icon/dark/dogeinhyeok.svg");
-  --open-ai-icon-url: url("/icon/dark/open-ai.svg");
-  --oopy-icon-url: url("/icon/dark/oopy.svg");
-  --nextjs-icon-url: url("/icon/dark/nextjs.svg");
-  --napkin-icon-url: url("/icon/dark/napkin.svg");
-  --midjourney-icon-url: url("/icon/dark/midjourney.svg");
-  --matplotlib-icon-url: url("/icon/dark/matplotlib.svg");
-  --flux-icon-url: url("/icon/dark/flux.svg");
-  --make-icon-url: url("/icon/dark/make.svg");
-  --flutter-icon-url: url("/icon/dark/flutter.svg");
-  --lego-icon-url: url("/icon/dark/lego.svg");
-  --onnx-icon-url: url("/icon/dark/onnx.svg");
-  --langchain-icon-url: url("/icon/dark/langchain.svg");
-  --pandas-icon-url: url("/icon/dark/pandas.svg");
-  --python-icon-url: url("/icon/dark/python.svg");
-  --jira-icon-url: url("/icon/dark/jira.svg");
-  --google-drive-icon-url: url("/icon/dark/google-drive.svg");
-  --javascript-icon-url: url("/icon/dark/javascript.svg");
-  --google-sheet-icon-url: url("/icon/dark/google-sheet.svg");
-  --patreon-icon-url: url("/icon/dark/patreon.svg");
-  --obsidian-icon-url: url("/icon/dark/obsidian.svg");
-  --notion-icon-url: url("/icon/dark/notion.svg");
-  --gitbook-icon-url: url("/icon/dark/gitbook.svg");
-  --github-icon-url: url("/icon/dark/github.svg");
-  --gamma-icon-url: url("/icon/dark/gamma.svg");
-  --git-icon-url: url("/icon/dark/git.svg");
-  --firebase-icon-url: url("/icon/dark/firebase.svg");
-  --figma-icon-url: url("/icon/dark/figma.svg");
-  --fastapi-icon-url: url("/icon/dark/fastapi.svg");
-  --cpp-icon-url: url("/icon/dark/cpp.svg");
-  --confluence-icon-url: url("/icon/dark/confluence.svg");
-  --clickup-icon-url: url("/icon/dark/clickup.svg");
-  --cursor-ide-icon-url: url("/icon/dark/cursor-ide.svg");
-  --claude-ai-icon-url: url("/icon/dark/claude-ai.svg");
-  --csharp-icon-url: url("/icon/dark/csharp.svg");
-  --dall-e-icon-url: url("/icon/dark/dall-e.svg");
-  --chatgpt-icon-url: url("/icon/dark/chatgpt.svg");
-  --capcut-icon-url: url("/icon/dark/capcut.svg");
-  --buy-me-a-coffee-icon-url: url("/icon/dark/buy-me-a-coffee.svg");
-  --bitcoin-icon-url: url("/icon/dark/bitcoin.svg");
-  --adobe-express-icon-url: url("/icon/dark/adobe-express.svg");
-  --zapier-icon-url: url("/icon/dark/zapier.svg");
-  --web3js-icon-url: url("/icon/dark/web3js.svg");
-  --vscode-icon-url: url("/icon/dark/vscode.svg");
-  --verse-icon-url: url("/icon/dark/verse.svg");
-  --vercel-icon-url: url("/icon/dark/vercel.svg");
-  --zoom-icon-url: url("/icon/dark/zoom.svg");
-  --three-d-printer-icon-url: url("/icon/dark/three-d-printer.svg");
-  --scikit-learn-icon-url: url("/icon/dark/scikit-learn.svg");
-  --rust-icon-url: url("/icon/dark/rust.svg");
-  --ros-icon-url: url("/icon/dark/ros.svg");
-  --trello-icon-url: url("/icon/dark/trello.svg");
-  --toss-icon-url: url("/icon/dark/toss.svg");
-  --discord-icon-url: url("/icon/dark/discord.svg");
-  --dogecoin-icon-url: url("/icon/dark/dogecoin.svg");
-  --elevenlabs-icon-url: url("/icon/dark/elevenlabs.svg");
-  --electron-icon-url: url("/icon/dark/electron.svg");
-  --tailwind-css-icon-url: url("/icon/dark/tailwind-css.svg");
-  --tensorflow-icon-url: url("/icon/dark/tensorflow.svg");
-  --unreal-engine-icon-url: url("/icon/dark/unreal-engine.svg");
-  --unity-icon-url: url("/icon/dark/unity.svg");
-  --supabase-icon-url: url("/icon/dark/supabase.svg");
-  --typescript-icon-url: url("/icon/dark/typescript.svg");
-  --suno-icon-url: url("/icon/dark/suno.svg");
-  --sora-icon-url: url("/icon/dark/sora.svg");
-  --sourcetree-icon-url: url("/icon/dark/sourcetree.svg");
-  --react-unity-webgl-icon-url: url("/icon/dark/react-unity-webgl.svg");
-  --react-icon-url: url("/icon/dark/react.svg");
-  --sider-icon-url: url("/icon/dark/sider.svg");
-  --shader-icon-url: url("/icon/dark/shader.svg");
-  --shadcn-ui-icon-url: url("/icon/dark/shadcn-ui.svg");
-  --seaborn-icon-url: url("/icon/dark/seaborn.svg");
-  --raspberry-pi-icon-url: url("/icon/dark/raspberry-pi.svg");
-  --slack-icon-url: url("/icon/dark/slack.svg");
-  --solana-icon-url: url("/icon/dark/solana.svg");
-  --solidity-icon-url: url("/icon/dark/solidity.svg");
-  --redis-icon-url: url("/icon/dark/redis.svg");
-  --sql-icon-url: url("/icon/dark/sql.svg");
-  --stable-audio-icon-url: url("/icon/dark/stable-audio.svg");
-  --streamlit-icon-url: url("/icon/dark/streamlit.svg");
-  --stripe-icon-url: url("/icon/dark/stripe.svg");
-}
-
-/* navbar icon */
-.navbar-discord-icon {
-  background: var(--discord-icon-url) no-repeat;
-}
-
-.navbar-patreon-icon {
-  background: var(--patreon-icon-url) no-repeat;
-}
-
-.navbar-youtube-icon {
-  background: var(--youtube-icon-url) no-repeat;
-}
-
-.navbar-github-icon {
-  background: var(--github-icon-url) no-repeat;
-}
-
-/* navbar icon size*/
-.navbar-discord-icon,
-.navbar-patreon-icon,
-.navbar-youtube-icon,
-.navbar-github-icon {
-  display: flex;
-  height: 24px;
-  width: 24px;
-  background-size: contain;
-  margin-left: 12px;
-}
-
-/* navbar icon hover*/
-.navbar-discord-icon:hover,
-.navbar-patreon-icon:hover,
-.navbar-youtube-icon:hover,
-.navbar-github-icon:hover {
-  opacity: 0.6;
-}
-
-/* last icon margin */
-.navbar-github-icon {
-  margin-right: 24px;
-}
-
-/* sidebar icon */
-.sidebar-open-ai-icon a::before {
-  content: var(--open-ai-icon-url);
-}
-
-.sidebar-toss-icon a::before {
-  content: var(--toss-icon-url);
-}
-
-.sidebar-web3js-icon a::before {
-  content: var(--web3js-icon-url);
-}
-
-.sidebar-docusaurus-icon a::before {
-  content: var(--docusaurus-icon-url);
-}
-
-.sidebar-tailwind-css-icon a::before {
-  content: var(--tailwind-css-icon-url);
-}
-
-.sidebar-vercel-icon a::before {
-  content: var(--vercel-icon-url);
-}
-
-.sidebar-react-icon a::before {
-  content: var(--react-icon-url);
-}
-
-.sidebar-react-native-icon a::before {
-  content: var(--react-native-icon-url);
-}
-
-.sidebar-shadcn-ui-icon a::before {
-  content: var(--shadcn-ui-icon-url);
-}
-
-.sidebar-electron-icon a::before {
-  content: var(--electron-icon-url);
-}
-
-.sidebar-javascript-icon a::before {
-  content: var(--javascript-icon-url);
-}
-
-.sidebar-nextjs-icon a::before {
-  content: var(--nextjs-icon-url);
-}
-
-.sidebar-typescript-icon a::before {
-  content: var(--typescript-icon-url);
-}
-
-.sidebar-make-icon a::before {
-  content: var(--make-icon-url);
-}
-
-.sidebar-zoom-icon a::before {
-  content: var(--zoom-icon-url);
-}
-
-.sidebar-discord-icon a::before {
-  content: var(--discord-icon-url);
-}
-
-.sidebar-github-icon a::before {
-  content: var(--github-icon-url);
-}
-
-.sidebar-google-workspace-icon a::before {
-  content: var(--google-drive-icon-url);
-}
-
-.sidebar-clickup-icon a::before {
-  content: var(--clickup-icon-url);
-}
-
-.sidebar-perplexity-icon a::before {
-  content: var(--perplexity-icon-url);
-}
-
-.sidebar-sider-icon a::before {
-  content: var(--sider-icon-url);
-}
-
-.sidebar-v0-dev-icon a::before {
-  content: var(--v0-dev-icon-url);
-}
-
-.sidebar-figma-icon a::before {
-  content: var(--figma-icon-url);
-}
-
-.sidebar-gamma-icon a::before {
-  content: var(--gamma-icon-url);
-}
-
-.sidebar-napkin-icon a::before {
-  content: var(--napkin-icon-url);
-}
-
-.sidebar-adobe-express-icon a::before {
-  content: var(--adobe-express-icon-url);
-}
-
-.sidebar-capcut-icon a::before {
-  content: var(--capcut-icon-url);
-}
-
-.sidebar-chatgpt-icon a::before {
-  content: var(--chatgpt-icon-url);
-}
-
-.sidebar-lego-icon a::before {
-  content: var(--lego-icon-url);
-}
-
-.sidebar-raspberry-pi-icon a::before {
-  content: var(--raspberry-pi-icon-url);
-}
-
-.sidebar-robot-operation-system-icon a::before {
-  content: var(--robot-operation-system-icon-url);
-}
-
-.sidebar-three-d-printer-icon a::before {
-  content: var(--three-d-printer-icon-url);
-}
-
-.sidebar-onnx-icon a::before {
-  content: var(--onnx-icon-url);
-}
-
-.sidebar-pytorch-icon a::before {
-  content: var(--pytorch-icon-url);
-}
-
-.sidebar-tensorflow-icon a::before {
-  content: var(--tensorflow-icon-url);
-}
-
-.sidebar-langchain-icon a::before {
-  content: var(--langchain-icon-url);
-}
-
-.sidebar-streamlit-icon a::before {
-  content: var(--streamlit-icon-url);
-}
-
-.sidebar-supabase-icon a::before {
-  content: var(--supabase-icon-url);
-}
-
-.sidebar-python-icon a::before {
-  content: var(--python-icon-url);
-}
-
-.sidebar-scikit-learn-icon a::before {
-  content: var(--scikit-learn-icon-url);
-}
-
-.sidebar-sql-icon a::before {
-  content: var(--sql-icon-url);
-}
-
-.sidebar-fastapi-icon a::before {
-  content: var(--fastapi-icon-url);
-}
-
-.sidebar-firebase-icon a::before {
-  content: var(--firebase-icon-url);
-}
-
-.sidebar-pandas-icon a::before {
-  content: var(--pandas-icon-url);
-}
-
-.sidebar-unity-icon a::before {
-  content: var(--unity-icon-url);
-}
-
-.sidebar-unity-ml-agents-icon a::before {
-  content: var(--unity-ml-agents-icon-url);
-}
-
-.sidebar-csharp-icon a::before {
-  content: var(--csharp-icon-url);
-}
-
-.sidebar-react-unity-webgl-icon a::before {
-  content: var(--react-unity-webgl-icon-url);
-}
-
-.sidebar-shader-icon a::before {
-  content: var(--shader-icon-url);
-}
-
-.sidebar-git-icon a::before {
-  content: var(--git-icon-url);
-}
-
-.sidebar-sourcetree-icon a::before {
-  content: var(--sourcetree-icon-url);
-}
-
-.sidebar-cursor-ide-icon a::before {
-  content: var(--cursor-ide-icon-url);
-}
-
-.sidebar-ros-icon a::before {
-  content: var(--ros-icon-url);
-}
-
-.sidebar-dogeinhyeok-icon a::before {
-  content: var(--dogeinhyeok-icon-url);
-}
-
-.sidebar-notion-icon a::before {
-  content: var(--notion-icon-url);
-}
-
-.sidebar-slack-icon a::before {
-  content: var(--slack-icon-url);
-}
-
-/* sidebar icon size */
-.sidebar-open-ai-icon a::before,
-.sidebar-toss-icon a::before,
-.sidebar-web3js-icon a::before,
-.sidebar-docusaurus-icon a::before,
-.sidebar-tailwind-css-icon a::before,
-.sidebar-vercel-icon a::before,
-.sidebar-react-icon a::before,
-.sidebar-react-native-icon a::before,
-.sidebar-shadcn-ui-icon a::before,
-.sidebar-electron-icon a::before,
-.sidebar-javascript-icon a::before,
-.sidebar-nextjs-icon a::before,
-.sidebar-typescript-icon a::before,
-.sidebar-make-icon a::before,
-.sidebar-zoom-icon a::before,
-.sidebar-discord-icon a::before,
-.sidebar-github-icon a::before,
-.sidebar-google-workspace-icon a::before,
-.sidebar-clickup-icon a::before,
-.sidebar-perplexity-icon a::before,
-.sidebar-sider-icon a::before,
-.sidebar-v0-dev-icon a::before,
-.sidebar-figma-icon a::before,
-.sidebar-gamma-icon a::before,
-.sidebar-napkin-icon a::before,
-.sidebar-adobe-express-icon a::before,
-.sidebar-capcut-icon a::before,
-.sidebar-chatgpt-icon a::before,
-.sidebar-lego-icon a::before,
-.sidebar-raspberry-pi-icon a::before,
-.sidebar-robot-operation-system-icon a::before,
-.sidebar-three-d-printer-icon a::before,
-.sidebar-onnx-icon a::before,
-.sidebar-pytorch-icon a::before,
-.sidebar-tensorflow-icon a::before,
-.sidebar-langchain-icon a::before,
-.sidebar-streamlit-icon a::before,
-.sidebar-supabase-icon a::before,
-.sidebar-python-icon a::before,
-.sidebar-scikit-learn-icon a::before,
-.sidebar-sql-icon a::before,
-.sidebar-fastapi-icon a::before,
-.sidebar-firebase-icon a::before,
-.sidebar-pandas-icon a::before,
-.sidebar-unity-icon a::before,
-.sidebar-unity-ml-agents-icon a::before,
-.sidebar-csharp-icon a::before,
-.sidebar-react-unity-webgl-icon a::before,
-.sidebar-shader-icon a::before,
-.sidebar-git-icon a::before,
-.sidebar-sourcetree-icon a::before,
-.sidebar-cursor-ide-icon a::before,
-.sidebar-ros-icon a::before,
-.sidebar-dogeinhyeok-icon a::before,
-.sidebar-notion-icon a::before,
-.sidebar-slack-icon a::before {
-  width: 1em;
-  height: 1em;
+/* 사이드바 메뉴 스타일 */
+.menu__link::before {
+  width: 1rem;
+  height: 1rem;
   padding-right: 0.5rem;
+}
+
+/* 16px icons */
+.icon-16px-adobe-express a::before {
+  content: url("/icon/16px/adobe-express.svg");
+}
+
+[data-theme="dark"] .icon-16px-adobe-express a::before {
+  content: url("/icon/16px/adobe-express-dark.svg");
+}
+
+.icon-16px-bitcoin a::before {
+  content: url("/icon/16px/bitcoin.svg");
+}
+
+.icon-16px-buymeacoffee a::before {
+  content: url("/icon/16px/buymeacoffee.svg");
+}
+
+[data-theme="dark"] .icon-16px-buymeacoffee a::before {
+  content: url("/icon/16px/buymeacoffee-dark.svg");
+}
+
+.icon-16px-capcut a::before {
+  content: url("/icon/16px/capcut.svg");
+}
+
+[data-theme="dark"] .icon-16px-capcut a::before {
+  content: url("/icon/16px/capcut-dark.svg");
+}
+
+.icon-16px-chatgpt a::before {
+  content: url("/icon/16px/chatgpt.svg");
+}
+
+[data-theme="dark"] .icon-16px-chatgpt a::before {
+  content: url("/icon/16px/chatgpt-dark.svg");
+}
+
+.icon-16px-claude a::before {
+  content: url("/icon/16px/claude.svg");
+}
+
+.icon-16px-clickup a::before {
+  content: url("/icon/16px/clickup.svg");
+}
+
+.icon-16px-confluence a::before {
+  content: url("/icon/16px/confluence.svg");
+}
+
+.icon-16px-cpp a::before {
+  content: url("/icon/16px/cpp.svg");
+}
+
+.icon-16px-csharp a::before {
+  content: url("/icon/16px/csharp.svg");
+}
+
+.icon-16px-cursor a::before {
+  content: url("/icon/16px/cursor.svg");
+}
+
+[data-theme="dark"] .icon-16px-cursor a::before {
+  content: url("/icon/16px/cursor-dark.svg");
+}
+
+.icon-16px-dall-e a::before {
+  content: url("/icon/16px/dall-e.svg");
+}
+
+.icon-16px-dart a::before {
+  content: url("/icon/16px/dart.svg");
+}
+
+.icon-16px-discord a::before {
+  content: url("/icon/16px/discord.svg");
+}
+
+[data-theme="dark"] .icon-16px-discord a::before {
+  content: url("/icon/16px/discord-dark.svg");
+}
+
+.icon-16px-docusaurus a::before {
+  content: url("/icon/16px/docusaurus.svg");
+}
+
+.icon-16px-dogecoin a::before {
+  content: url("/icon/16px/dogecoin.svg");
+}
+
+.icon-16px-dogeinhyeok a::before {
+  content: url("/icon/16px/dogeinhyeok.svg");
+}
+
+.icon-16px-electron a::before {
+  content: url("/icon/16px/electron.svg");
+}
+
+[data-theme="dark"] .icon-16px-electron a::before {
+  content: url("/icon/16px/electron-dark.svg");
+}
+
+.icon-16px-elevenlabs a::before {
+  content: url("/icon/16px/elevenlabs.svg");
+}
+
+.icon-16px-fastapi a::before {
+  content: url("/icon/16px/fastapi.svg");
+}
+
+.icon-16px-figma a::before {
+  content: url("/icon/16px/figma.svg");
+}
+
+[data-theme="dark"] .icon-16px-figma a::before {
+  content: url("/icon/16px/figma-dark.svg");
+}
+
+.icon-16px-firebase a::before {
+  content: url("/icon/16px/firebase.svg");
+}
+
+.icon-16px-flutter a::before {
+  content: url("/icon/16px/flutter.svg");
+}
+
+.icon-16px-flux a::before {
+  content: url("/icon/16px/flux.svg");
+}
+
+.icon-16px-gamma a::before {
+  content: url("/icon/16px/gamma.svg");
+}
+
+.icon-16px-git a::before {
+  content: url("/icon/16px/git.svg");
+}
+
+.icon-16px-gitbook a::before {
+  content: url("/icon/16px/gitbook.svg");
+}
+
+[data-theme="dark"] .icon-16px-gitbook a::before {
+  content: url("/icon/16px/gitbook-dark.svg");
+}
+
+.icon-16px-github a::before {
+  content: url("/icon/16px/github.svg");
+}
+
+[data-theme="dark"] .icon-16px-github a::before {
+  content: url("/icon/16px/github-dark.svg");
+}
+
+.icon-16px-google-drive a::before {
+  content: url("/icon/16px/google-drive.svg");
+}
+
+.icon-16px-google-sheet a::before {
+  content: url("/icon/16px/google-sheet.svg");
+}
+
+.icon-16px-javascript a::before {
+  content: url("/icon/16px/javascript.svg");
+}
+
+.icon-16px-jira a::before {
+  content: url("/icon/16px/jira.svg");
+}
+
+.icon-16px-langchain a::before {
+  content: url("/icon/16px/langchain.svg");
+}
+
+[data-theme="dark"] .icon-16px-langchain a::before {
+  content: url("/icon/16px/langchain-dark.svg");
+}
+
+.icon-16px-lego a::before {
+  content: url("/icon/16px/lego.svg");
+}
+
+.icon-16px-make a::before {
+  content: url("/icon/16px/make.svg");
+}
+
+.icon-16px-matplotlib a::before {
+  content: url("/icon/16px/matplotlib.svg");
+}
+
+.icon-16px-midjourney a::before {
+  content: url("/icon/16px/midjourney.svg");
+}
+
+.icon-16px-napkin a::before {
+  content: url("/icon/16px/napkin.svg");
+}
+
+.icon-16px-nextjs a::before {
+  content: url("/icon/16px/nextjs.svg");
+}
+
+[data-theme="dark"] .icon-16px-nextjs a::before {
+  content: url("/icon/16px/nextjs-dark.svg");
+}
+
+.icon-16px-notion a::before {
+  content: url("/icon/16px/notion.svg");
+}
+
+[data-theme="dark"] .icon-16px-notion a::before {
+  content: url("/icon/16px/notion-dark.svg");
+}
+
+.icon-16px-obsidian a::before {
+  content: url("/icon/16px/obsidian.svg");
+}
+
+.icon-16px-onnx a::before {
+  content: url("/icon/16px/onnx.svg");
+}
+
+.icon-16px-openai a::before {
+  content: url("/icon/16px/openai.svg");
+}
+
+.icon-16px-oopy a::before {
+  content: url("/icon/16px/oopy.svg");
+}
+
+.icon-16px-pandas a::before {
+  content: url("/icon/16px/pandas.svg");
+}
+
+[data-theme="dark"] .icon-16px-pandas a::before {
+  content: url("/icon/16px/pandas-dark.svg");
+}
+
+.icon-16px-patreon a::before {
+  content: url("/icon/16px/patreon.svg");
+}
+
+[data-theme="dark"] .icon-16px-patreon a::before {
+  content: url("/icon/16px/patreon-dark.svg");
+}
+
+.icon-16px-perplexity a::before {
+  content: url("/icon/16px/perplexity.svg");
+}
+
+.icon-16px-python a::before {
+  content: url("/icon/16px/python.svg");
+}
+
+.icon-16px-react-unity-webgl a::before {
+  content: url("/icon/16px/react-unity-webgl.svg");
+}
+
+[data-theme="dark"] .icon-16px-react-unity-webgl a::before {
+  content: url("/icon/16px/react-unity-webgl-dark.svg");
+}
+
+.icon-16px-ros a::before {
+  content: url("/icon/16px/ros.svg");
+}
+
+[data-theme="dark"] .icon-16px-ros a::before {
+  content: url("/icon/16px/ros-dark.svg");
+}
+
+.icon-16px-runway a::before {
+  content: url("/icon/16px/runway.svg");
+}
+
+[data-theme="dark"] .icon-16px-runway a::before {
+  content: url("/icon/16px/runway-dark.svg");
+}
+
+.icon-16px-rust a::before {
+  content: url("/icon/16px/rust.svg");
+}
+
+[data-theme="dark"] .icon-16px-rust a::before {
+  content: url("/icon/16px/rust-dark.svg");
+}
+
+.icon-16px-scikit-learn a::before {
+  content: url("/icon/16px/scikit-learn.svg");
+}
+
+.icon-16px-seaborn a::before {
+  content: url("/icon/16px/seaborn.svg");
+}
+
+.icon-16px-sora a::before {
+  content: url("/icon/16px/sora.svg");
+}
+
+.icon-16px-sourcetree a::before {
+  content: url("/icon/16px/sourcetree.svg");
+}
+
+.icon-16px-suno a::before {
+  content: url("/icon/16px/suno.svg");
+}
+
+[data-theme="dark"] .icon-16px-suno a::before {
+  content: url("/icon/16px/suno-dark.svg");
+}
+
+.icon-16px-supabase a::before {
+  content: url("/icon/16px/supabase.svg");
+}
+
+.icon-16px-tailwindcss a::before {
+  content: url("/icon/16px/tailwindcss.svg");
+}
+
+.icon-16px-tensorflow a::before {
+  content: url("/icon/16px/tensorflow.svg");
+}
+
+.icon-16px-threedprinter a::before {
+  content: url("/icon/16px/threedprinter.svg");
+}
+
+[data-theme="dark"] .icon-16px-threedprinter a::before {
+  content: url("/icon/16px/threedprinter-dark.svg");
+}
+
+.icon-16px-toss a::before {
+  content: url("/icon/16px/toss.svg");
+}
+
+.icon-16px-trello a::before {
+  content: url("/icon/16px/trello.svg");
+}
+
+.icon-16px-typescript a::before {
+  content: url("/icon/16px/typescript.svg");
+}
+
+.icon-16px-unity a::before {
+  content: url("/icon/16px/unity.svg");
+}
+
+[data-theme="dark"] .icon-16px-unity a::before {
+  content: url("/icon/16px/unity-dark.svg");
+}
+
+.icon-16px-unrealengine a::before {
+  content: url("/icon/16px/unrealengine.svg");
+}
+
+[data-theme="dark"] .icon-16px-unrealengine a::before {
+  content: url("/icon/16px/unrealengine-dark.svg");
+}
+
+.icon-16px-v0-dev a::before {
+  content: url("/icon/16px/v0-dev.svg");
+}
+
+[data-theme="dark"] .icon-16px-v0-dev a::before {
+  content: url("/icon/16px/v0-dev-dark.svg");
+}
+
+.icon-16px-vercel a::before {
+  content: url("/icon/16px/vercel.svg");
+}
+
+[data-theme="dark"] .icon-16px-vercel a::before {
+  content: url("/icon/16px/vercel-dark.svg");
+}
+
+.icon-16px-verse a::before {
+  content: url("/icon/16px/verse.svg");
+}
+
+[data-theme="dark"] .icon-16px-verse a::before {
+  content: url("/icon/16px/verse-dark.svg");
+}
+
+.icon-16px-vscode a::before {
+  content: url("/icon/16px/vscode.svg");
+}
+
+.icon-16px-web3js a::before {
+  content: url("/icon/16px/web3js.svg");
+}
+
+.icon-16px-youtube a::before {
+  content: url("/icon/16px/youtube.svg");
+}
+
+.icon-16px-zapier a::before {
+  content: url("/icon/16px/zapier.svg");
+}
+
+.icon-16px-zoom a::before {
+  content: url("/icon/16px/zoom.svg");
+}
+
+/* 24px icons */
+.icon-24px-adobe-express a::before {
+  content: url("/icon/24px/adobe-express.svg");
+}
+
+[data-theme="dark"] .icon-24px-adobe-express a::before {
+  content: url("/icon/24px/adobe-express-dark.svg");
+}
+
+.icon-24px-bitcoin a::before {
+  content: url("/icon/24px/bitcoin.svg");
+}
+
+.icon-24px-buymeacoffee a::before {
+  content: url("/icon/24px/buymeacoffee.svg");
+}
+
+[data-theme="dark"] .icon-24px-buymeacoffee a::before {
+  content: url("/icon/24px/buymeacoffee-dark.svg");
+}
+
+.icon-24px-capcut a::before {
+  content: url("/icon/24px/capcut.svg");
+}
+
+[data-theme="dark"] .icon-24px-capcut a::before {
+  content: url("/icon/24px/capcut-dark.svg");
+}
+
+.icon-24px-chatgpt a::before {
+  content: url("/icon/24px/chatgpt.svg");
+}
+
+[data-theme="dark"] .icon-24px-chatgpt a::before {
+  content: url("/icon/24px/chatgpt-dark.svg");
+}
+
+.icon-24px-claude a::before {
+  content: url("/icon/24px/claude.svg");
+}
+
+.icon-24px-clickup a::before {
+  content: url("/icon/24px/clickup.svg");
+}
+
+.icon-24px-confluence a::before {
+  content: url("/icon/24px/confluence.svg");
+}
+
+.icon-24px-cpp a::before {
+  content: url("/icon/24px/cpp.svg");
+}
+
+.icon-24px-csharp a::before {
+  content: url("/icon/24px/csharp.svg");
+}
+
+.icon-24px-cursor a::before {
+  content: url("/icon/24px/cursor.svg");
+}
+
+[data-theme="dark"] .icon-24px-cursor a::before {
+  content: url("/icon/24px/cursor-dark.svg");
+}
+
+.icon-24px-dall-e a::before {
+  content: url("/icon/24px/dall-e.svg");
+}
+
+.icon-24px-dart a::before {
+  content: url("/icon/24px/dart.svg");
+}
+
+.icon-24px-discord a::before {
+  content: url("/icon/24px/discord.svg");
+}
+
+[data-theme="dark"] .icon-24px-discord a::before {
+  content: url("/icon/24px/discord-dark.svg");
+}
+
+.icon-24px-docusaurus a::before {
+  content: url("/icon/24px/docusaurus.svg");
+}
+
+.icon-24px-dogecoin a::before {
+  content: url("/icon/24px/dogecoin.svg");
+}
+
+.icon-24px-dogeinhyeok a::before {
+  content: url("/icon/24px/dogeinhyeok.svg");
+}
+
+.icon-24px-electron a::before {
+  content: url("/icon/24px/electron.svg");
+}
+
+[data-theme="dark"] .icon-24px-electron a::before {
+  content: url("/icon/24px/electron-dark.svg");
+}
+
+.icon-24px-elevenlabs a::before {
+  content: url("/icon/24px/elevenlabs.svg");
+}
+
+.icon-24px-fastapi a::before {
+  content: url("/icon/24px/fastapi.svg");
+}
+
+.icon-24px-figma a::before {
+  content: url("/icon/24px/figma.svg");
+}
+
+[data-theme="dark"] .icon-24px-figma a::before {
+  content: url("/icon/24px/figma-dark.svg");
+}
+
+.icon-24px-firebase a::before {
+  content: url("/icon/24px/firebase.svg");
+}
+
+.icon-24px-flutter a::before {
+  content: url("/icon/24px/flutter.svg");
+}
+
+.icon-24px-flux a::before {
+  content: url("/icon/24px/flux.svg");
+}
+
+.icon-24px-gamma a::before {
+  content: url("/icon/24px/gamma.svg");
+}
+
+.icon-24px-git a::before {
+  content: url("/icon/24px/git.svg");
+}
+
+.icon-24px-gitbook a::before {
+  content: url("/icon/24px/gitbook.svg");
+}
+
+[data-theme="dark"] .icon-24px-gitbook a::before {
+  content: url("/icon/24px/gitbook-dark.svg");
+}
+
+.icon-24px-github a::before {
+  content: url("/icon/24px/github.svg");
+}
+
+[data-theme="dark"] .icon-24px-github a::before {
+  content: url("/icon/24px/github-dark.svg");
+}
+
+.icon-24px-google-drive a::before {
+  content: url("/icon/24px/google-drive.svg");
+}
+
+.icon-24px-google-sheet a::before {
+  content: url("/icon/24px/google-sheet.svg");
+}
+
+.icon-24px-javascript a::before {
+  content: url("/icon/24px/javascript.svg");
+}
+
+.icon-24px-jira a::before {
+  content: url("/icon/24px/jira.svg");
+}
+
+.icon-24px-langchain a::before {
+  content: url("/icon/24px/langchain.svg");
+}
+
+[data-theme="dark"] .icon-24px-langchain a::before {
+  content: url("/icon/24px/langchain-dark.svg");
+}
+
+.icon-24px-lego a::before {
+  content: url("/icon/24px/lego.svg");
+}
+
+.icon-24px-make a::before {
+  content: url("/icon/24px/make.svg");
+}
+
+.icon-24px-matplotlib a::before {
+  content: url("/icon/24px/matplotlib.svg");
+}
+
+.icon-24px-midjourney a::before {
+  content: url("/icon/24px/midjourney.svg");
+}
+
+.icon-24px-napkin a::before {
+  content: url("/icon/24px/napkin.svg");
+}
+
+.icon-24px-nextjs a::before {
+  content: url("/icon/24px/nextjs.svg");
+}
+
+[data-theme="dark"] .icon-24px-nextjs a::before {
+  content: url("/icon/24px/nextjs-dark.svg");
+}
+
+.icon-24px-notion a::before {
+  content: url("/icon/24px/notion.svg");
+}
+
+[data-theme="dark"] .icon-24px-notion a::before {
+  content: url("/icon/24px/notion-dark.svg");
+}
+
+.icon-24px-obsidian a::before {
+  content: url("/icon/24px/obsidian.svg");
+}
+
+.icon-24px-onnx a::before {
+  content: url("/icon/24px/onnx.svg");
+}
+
+.icon-24px-openai a::before {
+  content: url("/icon/24px/openai.svg");
+}
+
+.icon-24px-oopy a::before {
+  content: url("/icon/24px/oopy.svg");
+}
+
+.icon-24px-pandas a::before {
+  content: url("/icon/24px/pandas.svg");
+}
+
+[data-theme="dark"] .icon-24px-pandas a::before {
+  content: url("/icon/24px/pandas-dark.svg");
+}
+
+.icon-24px-patreon a::before {
+  content: url("/icon/24px/patreon.svg");
+}
+
+[data-theme="dark"] .icon-24px-patreon a::before {
+  content: url("/icon/24px/patreon-dark.svg");
+}
+
+.icon-24px-perplexity a::before {
+  content: url("/icon/24px/perplexity.svg");
+}
+
+.icon-24px-python a::before {
+  content: url("/icon/24px/python.svg");
+}
+
+.icon-24px-react a::before {
+  content: url("/icon/24px/react.svg");
+}
+
+[data-theme="dark"] .icon-24px-react a::before {
+  content: url("/icon/24px/react-dark.svg");
+}
+
+.icon-24px-react-unity-webgl a::before {
+  content: url("/icon/24px/react-unity-webgl.svg");
+}
+
+[data-theme="dark"] .icon-24px-react-unity-webgl a::before {
+  content: url("/icon/24px/react-unity-webgl-dark.svg");
+}
+
+.icon-24px-ros a::before {
+  content: url("/icon/24px/ros.svg");
+}
+
+[data-theme="dark"] .icon-24px-ros a::before {
+  content: url("/icon/24px/ros-dark.svg");
+}
+
+.icon-24px-runway a::before {
+  content: url("/icon/24px/runway.svg");
+}
+
+[data-theme="dark"] .icon-24px-runway a::before {
+  content: url("/icon/24px/runway-dark.svg");
+}
+
+.icon-24px-rust a::before {
+  content: url("/icon/24px/rust.svg");
+}
+
+[data-theme="dark"] .icon-24px-rust a::before {
+  content: url("/icon/24px/rust-dark.svg");
+}
+
+.icon-24px-scikit-learn a::before {
+  content: url("/icon/24px/scikit-learn.svg");
+}
+
+.icon-24px-seaborn a::before {
+  content: url("/icon/24px/seaborn.svg");
+}
+
+.icon-24px-sora a::before {
+  content: url("/icon/24px/sora.svg");
+}
+
+.icon-24px-sourcetree a::before {
+  content: url("/icon/24px/sourcetree.svg");
+}
+
+.icon-24px-suno a::before {
+  content: url("/icon/24px/suno.svg");
+}
+
+[data-theme="dark"] .icon-24px-suno a::before {
+  content: url("/icon/24px/suno-dark.svg");
+}
+
+.icon-24px-supabase a::before {
+  content: url("/icon/24px/supabase.svg");
+}
+
+.icon-24px-tailwindcss a::before {
+  content: url("/icon/24px/tailwindcss.svg");
+}
+
+.icon-24px-tensorflow a::before {
+  content: url("/icon/24px/tensorflow.svg");
+}
+
+.icon-24px-threedprinter a::before {
+  content: url("/icon/24px/threedprinter.svg");
+}
+
+[data-theme="dark"] .icon-24px-threedprinter a::before {
+  content: url("/icon/24px/threedprinter-dark.svg");
+}
+
+.icon-24px-toss a::before {
+  content: url("/icon/24px/toss.svg");
+}
+
+.icon-24px-trello a::before {
+  content: url("/icon/24px/trello.svg");
+}
+
+.icon-24px-typescript a::before {
+  content: url("/icon/24px/typescript.svg");
+}
+
+.icon-24px-unity a::before {
+  content: url("/icon/24px/unity.svg");
+}
+
+[data-theme="dark"] .icon-24px-unity a::before {
+  content: url("/icon/24px/unity-dark.svg");
+}
+
+.icon-24px-unrealengine a::before {
+  content: url("/icon/24px/unrealengine.svg");
+}
+
+[data-theme="dark"] .icon-24px-unrealengine a::before {
+  content: url("/icon/24px/unrealengine-dark.svg");
+}
+
+.icon-24px-v0-dev a::before {
+  content: url("/icon/24px/v0-dev.svg");
+}
+
+[data-theme="dark"] .icon-24px-v0-dev a::before {
+  content: url("/icon/24px/v0-dev-dark.svg");
+}
+
+.icon-24px-vercel a::before {
+  content: url("/icon/24px/vercel.svg");
+}
+
+[data-theme="dark"] .icon-24px-vercel a::before {
+  content: url("/icon/24px/vercel-dark.svg");
+}
+
+.icon-24px-verse a::before {
+  content: url("/icon/24px/verse.svg");
+}
+
+[data-theme="dark"] .icon-24px-verse a::before {
+  content: url("/icon/24px/verse-dark.svg");
+}
+
+.icon-24px-vscode a::before {
+  content: url("/icon/24px/vscode.svg");
+}
+
+.icon-24px-web3js a::before {
+  content: url("/icon/24px/web3js.svg");
+}
+
+.icon-24px-youtube a::before {
+  content: url("/icon/24px/youtube.svg");
+}
+
+.icon-24px-zapier a::before {
+  content: url("/icon/24px/zapier.svg");
+}
+
+.icon-24px-zoom a::before {
+  content: url("/icon/24px/zoom.svg");
 }
