@@ -187,6 +187,11 @@ const config: Config = {
         content: process.env.NAVER_SEARCH_ADVISOR_ID,
       },
     ],
+    algolia: {
+      appId: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: process.env.ALGOLIA_INDEX_NAME,
+    },
   } satisfies Preset.ThemeConfig,
   plugins: [
     async function tailwindPlugin(context, options) {
