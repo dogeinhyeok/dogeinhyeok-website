@@ -119,12 +119,6 @@ const config: Config = {
           label: "Patreon",
           "aria-label": "Patreon Icon",
         },
-        {
-          href: githubUrl,
-          position: "right",
-          label: "GitHub",
-          "aria-label": "GitHub Icon",
-        },
       ],
     },
     // 하단 네비게이션 바 편집
