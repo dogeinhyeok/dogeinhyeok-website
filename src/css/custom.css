@@ -34,7 +34,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 사이드바 메뉴 스타일 */
+/* 사이드바 아이콘 스타일 */
 .menu__link::before {
   width: 1rem;
   height: 1rem;

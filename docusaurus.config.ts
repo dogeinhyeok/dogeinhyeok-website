@@ -78,6 +78,7 @@ const config: Config = {
           trackingID: process.env.GOOGLE_ANALYTICS_ID, // 환경 변수 사용
           anonymizeIP: true,
         },
+        svgr: { svgrConfig: {} },
       } satisfies Preset.Options,
     ],
   ],
