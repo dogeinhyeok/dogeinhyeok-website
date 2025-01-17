@@ -28,6 +28,8 @@ function LogoComponentDesktop(props: {
         style={{
           width: "24px",
           height: "24px",
+          marginRight: "0px",
+          marginLeft: "0px",
         }} // 인라인 스타일로 크기 설정
         className="navbar__logo transition-opacity duration-300 group-hover:opacity-50" // 그룹 호버 스타일 추가
       />
