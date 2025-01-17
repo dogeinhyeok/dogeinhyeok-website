@@ -10,6 +10,7 @@ import SearchBar from "@theme/SearchBar";
 import NavbarMobileSidebarToggle from "@theme/Navbar/MobileSidebar/Toggle";
 import NavbarLogo from "@theme/Navbar/Logo";
 import NavbarSearch from "@theme/Navbar/Search";
+import { useWindowSize } from "@docusaurus/theme-common"; // 윈도우 크기 확인
 
 import styles from "./styles.module.css";
 
@@ -57,6 +58,8 @@ function NavbarContentLayout({
 
 export default function NavbarContent(): ReactNode {
   const mobileSidebar = useNavbarMobileSidebar();
+  const windowSize = useWindowSize(); // 현재 창 크기
+  const isMobile = windowSize === "mobile"; // 모바일 모드인지 확인
 
   const items = useNavbarItems();
   const [leftItems, rightItems] = splitNavbarItems(items);
@@ -78,7 +81,7 @@ export default function NavbarContent(): ReactNode {
         // Ask the user to add the respective navbar items => more flexible
         <>
           <NavbarItems items={rightItems} />
-          <div style={{ width: "16px" }} /> {/* 간격 조절 */}
+          {!isMobile && <div style={{ width: "16px" }} />} {/* 간격 조절 */}
           <NavbarColorModeToggle className={styles.colorModeToggle} />
           {!searchBarItem && (
             <NavbarSearch>
