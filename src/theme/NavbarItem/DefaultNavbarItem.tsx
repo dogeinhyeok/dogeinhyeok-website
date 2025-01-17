@@ -28,10 +28,8 @@ function LogoComponentDesktop(props: {
         style={{
           width: "24px",
           height: "24px",
-          marginLeft: "4px",
-          marginRight: "4px",
         }} // 인라인 스타일로 크기 설정
-        className="navbar__logo transition-opacity duration-300 group-hover:opacity-75" // 그룹 호버 스타일 추가
+        className="navbar__logo transition-opacity duration-300 group-hover:opacity-50" // 그룹 호버 스타일 추가
       />
     </a>
   );
@@ -42,6 +40,7 @@ function LogoComponentMobile(props: {
   href: string;
   lightSrc: string;
   darkSrc: string;
+  label: string;
 }) {
   const { colorMode } = useColorMode(); // 현재 테마 가져오기
 
@@ -62,7 +61,7 @@ function LogoComponentMobile(props: {
         }} // 인라인 스타일로 크기 설정
         className="navbar__logo" // 그룹 호버 스타일 추가
       />
-      <div>Github</div>
+      <div>{props.label}</div>
     </a>
   );
 }
@@ -78,6 +77,27 @@ function DefaultNavbarItemDesktop({
       href: props.href,
       lightSrc: "/icon/24px/github.svg",
       darkSrc: "/icon/24px/github-dark.svg",
+    });
+  }
+  if (props.href && props.href.startsWith("https://youtube.com")) {
+    return LogoComponentDesktop({
+      href: props.href,
+      lightSrc: "/icon/24px/youtube.svg",
+      darkSrc: "/icon/24px/youtube.svg",
+    });
+  }
+  if (props.href && props.href.startsWith("https://patreon.com")) {
+    return LogoComponentDesktop({
+      href: props.href,
+      lightSrc: "/icon/24px/patreon.svg",
+      darkSrc: "/icon/24px/patreon-dark.svg",
+    });
+  }
+  if (props.href && props.href.startsWith("https://discord.gg")) {
+    return LogoComponentDesktop({
+      href: props.href,
+      lightSrc: "/icon/24px/discord.svg",
+      darkSrc: "/icon/24px/discord-dark.svg",
     });
   }
 
@@ -110,6 +130,31 @@ function DefaultNavbarItemMobile({
       href: props.href,
       lightSrc: "/icon/16px/github.svg",
       darkSrc: "/icon/16px/github-dark.svg",
+      label: "Github",
+    });
+  }
+  if (props.href && props.href.startsWith("https://youtube.com")) {
+    return LogoComponentMobile({
+      href: props.href,
+      lightSrc: "/icon/16px/youtube.svg",
+      darkSrc: "/icon/16px/youtube.svg",
+      label: "Youtube",
+    });
+  }
+  if (props.href && props.href.startsWith("https://patreon.com")) {
+    return LogoComponentMobile({
+      href: props.href,
+      lightSrc: "/icon/16px/patreon.svg",
+      darkSrc: "/icon/16px/patreon-dark.svg",
+      label: "Patreon",
+    });
+  }
+  if (props.href && props.href.startsWith("https://discord.gg")) {
+    return LogoComponentMobile({
+      href: props.href,
+      lightSrc: "/icon/16px/discord.svg",
+      darkSrc: "/icon/16px/discord-dark.svg",
+      label: "Discord",
     });
   }
 

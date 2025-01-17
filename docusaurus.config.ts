@@ -14,9 +14,9 @@ import "dotenv/config"; // dotenv로 환경 변수 로드
 const websiteUrl = "https://dogeinhyeok.com";
 const githubUrl = "https://github.com/dogeinhyeok";
 const discordUrl = "https://discord.gg/pyHeT4B4jx";
-const patreonUrl = "https://www.patreon.com/c/dogeinhyeok/membership";
-const youtubeUrl = "https://www.youtube.com/@dogeinhyeok";
-const threadUrl = "https://www.threads.net/@dogeinhyeok";
+const patreonUrl = "https://patreon.com/c/dogeinhyeok/membership";
+const youtubeUrl = "https://youtube.com/@dogeinhyeok";
+const threadUrl = "https://threads.net/@dogeinhyeok";
 const emailUrl = "devinhyeok@gmail.com";
 
 const config: Config = {
@@ -105,28 +105,24 @@ const config: Config = {
           href: youtubeUrl,
           label: "Youtube",
           position: "right",
-          className: "icon-24px-youtube",
           "aria-label": "Youtube Icon",
         },
         {
           href: discordUrl,
           position: "right",
           label: "Discord",
-          className: "icon-24px-discord",
           "aria-label": "Discord Icon",
         },
         {
           href: patreonUrl,
           position: "right",
           label: "Patreon",
-          className: "icon-24px-patreon",
           "aria-label": "Patreon Icon",
         },
         {
           href: githubUrl,
           position: "right",
           label: "GitHub",
-          className: "icon-24px-github",
           "aria-label": "GitHub Icon",
         },
       ],
