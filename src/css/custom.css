@@ -294,8 +294,20 @@
   content: url("/icon/16px/python.svg");
 }
 
+.icon-16px-pytorch a::before {
+  content: url("/icon/16px/pytorch.svg");
+}
+
+.icon-16px-raspberrypi a::before {
+  content: url("/icon/16px/raspberrypi.svg");
+}
+
 .icon-16px-react-unity-webgl a::before {
   content: url("/icon/16px/react-unity-webgl.svg");
+}
+
+.icon-16px-react a::before {
+  content: url("/icon/16px/react.svg");
 }
 
 [data-theme="dark"] .icon-16px-react-unity-webgl a::before {
@@ -334,12 +346,60 @@
   content: url("/icon/16px/seaborn.svg");
 }
 
-.icon-16px-sora a::before {
-  content: url("/icon/16px/sora.svg");
+.icon-16px-shadcn-ui a::before {
+  content: url("/icon/16px/shadcn-ui.svg");
+}
+
+[data-theme="dark"] .icon-16px-shadcn-ui a::before {
+  content: url("/icon/16px/shadcn-ui-dark.svg");
+}
+
+.icon-16px-shader a::before {
+  content: url("/icon/16px/shader.svg");
+}
+
+[data-theme="dark"] .icon-16px-shader a::before {
+  content: url("/icon/16px/shader-dark.svg");
+}
+
+.icon-16px-sider a::before {
+  content: url("/icon/16px/sider.svg");
+}
+
+.icon-16px-slack a::before {
+  content: url("/icon/16px/slack.svg");
+}
+
+.icon-16px-solana a::before {
+  content: url("/icon/16px/solana.svg");
+}
+
+.icon-16px-solidity a::before {
+  content: url("/icon/16px/solidity.svg");
+}
+
+[data-theme="dark"] .icon-16px-solidity a::before {
+  content: url("/icon/16px/solidity-dark.svg");
 }
 
 .icon-16px-sourcetree a::before {
   content: url("/icon/16px/sourcetree.svg");
+}
+
+.icon-16px-sql a::before {
+  content: url("/icon/16px/sql.svg");
+}
+
+.icon-16px-stableaudio a::before {
+  content: url("/icon/16px/stableaudio.svg");
+}
+
+[data-theme="dark"] .icon-16px-stableaudio a::before {
+  content: url("/icon/16px/stableaudio-dark.svg");
+}
+
+.icon-16px-streamlit a::before {
+  content: url("/icon/16px/streamlit.svg");
 }
 
 .icon-16px-suno a::before {
@@ -695,6 +755,14 @@
   content: url("/icon/24px/python.svg");
 }
 
+.icon-24px-pytorch a::before {
+  content: url("/icon/24px/pytorch.svg");
+}
+
+.icon-24px-raspberrypi a::before {
+  content: url("/icon/24px/raspberrypi.svg");
+}
+
 .icon-24px-react a::before {
   content: url("/icon/24px/react.svg");
 }
@@ -743,12 +811,64 @@
   content: url("/icon/24px/seaborn.svg");
 }
 
+.icon-24px-shadcn-ui a::before {
+  content: url("/icon/24px/shadcn-ui.svg");
+}
+
+[data-theme="dark"] .icon-24px-shadcn-ui a::before {
+  content: url("/icon/24px/shadcn-ui-dark.svg");
+}
+
+.icon-24px-shader a::before {
+  content: url("/icon/24px/shader.svg");
+}
+
+[data-theme="dark"] .icon-24px-shader a::before {
+  content: url("/icon/24px/shader-dark.svg");
+}
+
+.icon-24px-sider a::before {
+  content: url("/icon/24px/sider.svg");
+}
+
+.icon-24px-slack a::before {
+  content: url("/icon/24px/slack.svg");
+}
+
+.icon-24px-solana a::before {
+  content: url("/icon/24px/solana.svg");
+}
+
+.icon-24px-solidity a::before {
+  content: url("/icon/24px/solidity.svg");
+}
+
+[data-theme="dark"] .icon-24px-solidity a::before {
+  content: url("/icon/24px/solidity-dark.svg");
+}
+
 .icon-24px-sora a::before {
   content: url("/icon/24px/sora.svg");
 }
 
 .icon-24px-sourcetree a::before {
   content: url("/icon/24px/sourcetree.svg");
+}
+
+.icon-24px-sql a::before {
+  content: url("/icon/24px/sql.svg");
+}
+
+.icon-24px-stableaudio a::before {
+  content: url("/icon/24px/stableaudio.svg");
+}
+
+[data-theme="dark"] .icon-24px-stableaudio a::before {
+  content: url("/icon/24px/stableaudio-dark.svg");
+}
+
+.icon-24px-streamlit a::before {
+  content: url("/icon/24px/streamlit.svg");
 }
 
 .icon-24px-suno a::before {
@@ -849,4 +969,16 @@
 
 .icon-24px-zoom a::before {
   content: url("/icon/24px/zoom.svg");
+}
+
+.icon-24px-react a::before {
+  content: url("/icon/24px/react.svg");
+}
+
+[data-theme="dark"] .icon-24px-suno a::before {
+  content: url("/icon/24px/suno-dark.svg");
+}
+
+[data-theme="dark"] .icon-24px-threedprinter a::before {
+  content: url("/icon/24px/threedprinter-dark.svg");
 }

@@ -1,9 +1,9 @@
 {
   "label": "v0.dev",
-  "position": 9,
+  "position": 8,
   "link": {
     "type": "generated-index",
     "description": "v0.dev 관련 문서입니다."
   },
-  "className": "sidebar-v0-dev-icon"
+  "className": "icon-16px-v0-dev"
 }
