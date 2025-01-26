@@ -229,6 +229,8 @@ const config: Config = {
     giscusEmitMetadata: process.env.GISCUS_EMIT_METADATA,
     giscusInputPosition: process.env.GISCUS_INPUT_POSITION,
     giscusLang: process.env.GISCUS_LANG,
+    googleAdsenseId: process.env.GOOGLE_ADSENSE_ID,
+    googleAdsenseSlot: process.env.GOOGLE_ADSENSE_SLOT,
   },
 };
 

@@ -81,9 +81,9 @@ export default function NavbarContent(): ReactNode {
         // Ask the user to add the respective navbar items => more flexible
         <>
           <NavbarItems items={rightItems} />
-          {!isMobile && <div style={{ width: "16px" }} />} {/* 간격 조절 */}
+          {!isMobile && <div style={{ width: "8px" }} />} {/* 간격 조절 */}
           <NavbarColorModeToggle className={styles.colorModeToggle} />
-          {!isMobile && <div style={{ width: "16px" }} />} {/* 간격 조절 */}
+          {!isMobile && <div style={{ width: "8px" }} />} {/* 간격 조절 */}
           {!searchBarItem && (
             <NavbarSearch>
               <SearchBar />

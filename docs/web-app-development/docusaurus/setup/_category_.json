@@ -1,0 +1,9 @@
+{
+  "label": "Docusaurus 설정",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Docusaurus와 Tailwind CSS로 기술 블로그를 위한 설정 가이드입니다."
+  },
+  "className": "icon-16px-docusaurus"
+}
