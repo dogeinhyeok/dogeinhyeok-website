@@ -126,12 +126,14 @@ const GiscusComponent: React.FC<GiscusComponentProps> = ({ style }) => {
   return (
     <div style={style}>
       <Giscus
+        // highlight-start
         repo="dogeinhyeok/dogeinhyeok-website" // Giscus가 연결될 GitHub 저장소
         repoId="R_kgDONmXHWw" // 저장소 ID
         category="Announcements" // 댓글이 달릴 카테고리
         categoryId="DIC_kwDONmXHW84Cl7dq" // 카테고리 ID
         mapping="url" // 댓글 매핑 방식
         term="Welcome to @giscus/react component!" // 기본 댓글 주제
+        // highlight-end
         strict="0" // 엄격 모드 설정
         reactionsEnabled="1" // 반응(이모지) 기능 활성화
         emitMetadata="1" // 메타데이터 전송 활성화
@@ -206,6 +208,7 @@ import DocItemContent from "@theme/DocItem/Content";
 import DocBreadcrumbs from "@theme/DocBreadcrumbs";
 import ContentVisibility from "@theme/ContentVisibility";
 import type { Props } from "@theme/DocItem/Layout";
+// highlight-next-line
 import GiscusComponent from "@site/src/components/GiscusComponent"; // GiscusComponent 컴포넌트 가져오기
 
 import styles from "./styles.module.css";
@@ -251,8 +254,10 @@ export default function DocItemLayout({ children }: Props): ReactNode {
             <DocItemFooter />
           </article>
           <DocItemPaginator />
+          // highlight-start
           {/* GiscusComponent 추가 */}
           <GiscusComponent style={{ marginTop: "4rem" }} />
+          // highlight-end
         </div>
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
@@ -292,6 +297,7 @@ Giscus 댓글 창은 `<article>` 태그 내부의 게시물 콘텐츠 바로 아
 ```tsx
 import React, { type ReactNode } from "react";
 import type { Props } from "@theme/BlogPostItem/Container";
+// highlight-next-line
 import GiscusComponent from "@site/src/components/GiscusComponent"; // GiscusComponent 컴포넌트 가져오기
 
 export default function BlogPostItemContainer({
@@ -301,8 +307,10 @@ export default function BlogPostItemContainer({
   return (
     <article className={className}>
       {children}
+      // highlight-start
       {/* GiscusComponent 추가 */}
       <GiscusComponent style={{ marginTop: "4rem" }} />
+      // highlight-end
     </article>
   );
 }

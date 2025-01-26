@@ -192,6 +192,7 @@ import DocBreadcrumbs from "@theme/DocBreadcrumbs";
 import ContentVisibility from "@theme/ContentVisibility";
 import type { Props } from "@theme/DocItem/Layout";
 import GiscusComponent from "@site/src/components/GiscusComponent"; // GiscusComponent 컴포넌트 가져오기
+// highlight-next-line
 import GoogleAdsenseComponent from "@site/src/components/GoogleAdsenseComponent"; // GoogleAdsenseComponent 컴포넌트 가져오기
 import styles from "./styles.module.css";
 
@@ -236,10 +237,12 @@ export default function DocItemLayout({ children }: Props): ReactNode {
             <DocItemFooter />
           </article>
           <DocItemPaginator />
+          // highlight-start
           {/* Google Adsense 추가 */}
           <GoogleAdsenseComponent style={{ marginTop: "4rem" }} />
           {/* GiscusComponent 추가 */}
           <GiscusComponent style={{ marginTop: "4rem" }} />
+          // highlight-end
         </div>
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
@@ -261,6 +264,7 @@ src/theme/BlogPostItem/Container
 import React, { type ReactNode } from "react";
 import type { Props } from "@theme/BlogPostItem/Container";
 import GiscusComponent from "@site/src/components/GiscusComponent"; // GiscusComponent 컴포넌트 가져오기
+// highlight-next-line
 import GoogleAdsenseComponent from "@site/src/components/GoogleAdsenseComponent"; // GoogleAdsenseComponent 컴포넌트 가져오기
 
 export default function BlogPostItemContainer({
@@ -270,10 +274,12 @@ export default function BlogPostItemContainer({
   return (
     <article className={className}>
       {children}
+      // highlight-start
       {/* Google Adsense 추가 */}
       <GoogleAdsenseComponent style={{ marginTop: "4rem" }} />
       {/* GiscusComponent 추가 */}
       <GiscusComponent style={{ marginTop: "4rem" }} />
+      // highlight-end
     </article>
   );
 }

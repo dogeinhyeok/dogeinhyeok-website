@@ -43,12 +43,14 @@ src/theme/NavbarItem
 import React, { type ReactNode } from "react";
 import clsx from "clsx";
 import NavbarNavLink from "@theme/NavbarItem/NavbarNavLink";
+// highlight-next-line
 import { useColorMode } from "@docusaurus/theme-common"; // Docusaurus 컬러모드 훅
 import type {
   DesktopOrMobileNavBarItemProps,
   Props,
 } from "@theme/NavbarItem/DefaultNavbarItem";
 
+// highlight-start
 // 데스크톱 로고 컴포넌트 예시
 function LogoComponentDesktop(props: {
   href: string;
@@ -78,7 +80,9 @@ function LogoComponentDesktop(props: {
     </a>
   );
 }
+// highlight-end
 
+// highlight-start
 // 모바일 로고 컴포넌트 예시
 function LogoComponentMobile(props: {
   href: string;
@@ -109,12 +113,14 @@ function LogoComponentMobile(props: {
     </a>
   );
 }
+// highlight-end
 
 function DefaultNavbarItemDesktop({
   className,
   isDropdownItem = false,
   ...props
 }: DesktopOrMobileNavBarItemProps) {
+  // highlight-start
   // 특정 URL에 대해 데스크탑 로고 렌더링
   if (props.href && props.href.startsWith("https://github.com")) {
     return LogoComponentDesktop({
@@ -123,6 +129,7 @@ function DefaultNavbarItemDesktop({
       darkSrc: "/icon/24px/github-dark.svg",
     });
   }
+  // highlight-end
 
   const element = (
     <NavbarNavLink
@@ -147,6 +154,7 @@ function DefaultNavbarItemMobile({
   isDropdownItem,
   ...props
 }: DesktopOrMobileNavBarItemProps) {
+  // highlight-start
   // 특정 URL에 대해 모바일 로고 렌더링
   if (props.href && props.href.startsWith("https://github.com")) {
     return LogoComponentMobile({
@@ -156,6 +164,7 @@ function DefaultNavbarItemMobile({
       label: "Github",
     });
   }
+  // highlight-end
 
   return (
     <li className="menu__list-item">
@@ -234,6 +243,7 @@ import SearchBar from "@theme/SearchBar";
 import NavbarMobileSidebarToggle from "@theme/Navbar/MobileSidebar/Toggle";
 import NavbarLogo from "@theme/Navbar/Logo";
 import NavbarSearch from "@theme/Navbar/Search";
+// highlight-next-line
 import { useWindowSize } from "@docusaurus/theme-common"; // 윈도우 크기 확인
 
 import styles from "./styles.module.css";
@@ -282,8 +292,10 @@ function NavbarContentLayout({
 
 export default function NavbarContent(): ReactNode {
   const mobileSidebar = useNavbarMobileSidebar();
+  // highlight-start
   const windowSize = useWindowSize(); // 현재 창 크기
   const isMobile = windowSize === "mobile"; // 모바일 모드인지 확인
+  // highlight-end
 
   const items = useNavbarItems();
   const [leftItems, rightItems] = splitNavbarItems(items);
@@ -305,9 +317,11 @@ export default function NavbarContent(): ReactNode {
         // Ask the user to add the respective navbar items => more flexible
         <>
           <NavbarItems items={rightItems} />
+          // highlight-start
           {!isMobile && <div style={{ width: "8px" }} />} {/* 간격 조절 */}
           <NavbarColorModeToggle className={styles.colorModeToggle} />
           {!isMobile && <div style={{ width: "8px" }} />} {/* 간격 조절 */}
+          // highlight-end
           {!searchBarItem && (
             <NavbarSearch>
               <SearchBar />
@@ -332,19 +346,24 @@ src/theme/Navbar/Logo/
 ```tsx
 import React, { type ReactNode } from "react";
 import Logo from "@theme/Logo";
+// highlight-next-line
 import { useWindowSize } from "@docusaurus/theme-common"; // 윈도우 크기 확인
 
 export default function NavbarLogo(): ReactNode {
+  // highlight-start
   const windowSize = useWindowSize(); // 현재 창 크기
   const isMobile = windowSize === "mobile"; // 모바일 모드인지 확인
+  // highlight-end
 
   return (
     <Logo
       className="navbar__brand"
       imageClassName="navbar__logo"
+      // highlight-start
       titleClassName={`navbar__title text--truncate ${
         isMobile ? "hidden" : ""
       }`} // 모바일 모드에서 텍스트 숨기기
+      // highlight-end
     />
   );
 }
