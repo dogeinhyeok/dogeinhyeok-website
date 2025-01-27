@@ -1,9 +1,9 @@
 {
-  "label": "OpenAI API",
+  "label": "OpenAI",
   "position": 14,
   "link": {
     "type": "generated-index",
-    "description": "OpenAI API 관련 문서입니다."
+    "description": "OpenAI 관련 문서입니다."
   },
   "className": "icon-16px-openai"
 }
