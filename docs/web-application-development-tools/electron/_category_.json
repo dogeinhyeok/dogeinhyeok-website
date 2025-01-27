@@ -1,0 +1,9 @@
+{
+  "label": "Electron",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "description": "Electron 관련 문서입니다."
+  },
+  "className": "icon-16px-electron"
+}

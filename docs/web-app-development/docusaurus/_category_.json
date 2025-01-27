@@ -1,9 +1,0 @@
-{
-  "label": "Docusaurus",
-  "position": 11,
-  "link": {
-    "type": "generated-index",
-    "description": "Docusaurus 관련 문서입니다."
-  },
-  "className": "icon-16px-docusaurus"
-}

@@ -58,6 +58,10 @@
   content: url("/icon/16px/adobe-express-dark.svg");
 }
 
+.icon-16px-babylonjs a::before {
+  content: url("/icon/16px/babylonjs.svg");
+}
+
 .icon-16px-bitcoin a::before {
   content: url("/icon/16px/bitcoin.svg");
 }
@@ -160,10 +164,6 @@
 
 .icon-16px-figma a::before {
   content: url("/icon/16px/figma.svg");
-}
-
-[data-theme="dark"] .icon-16px-figma a::before {
-  content: url("/icon/16px/figma-dark.svg");
 }
 
 .icon-16px-firebase a::before {
@@ -318,8 +318,8 @@
   content: url("/icon/16px/react.svg");
 }
 
-[data-theme="dark"] .icon-16px-react-unity-webgl a::before {
-  content: url("/icon/16px/react-unity-webgl-dark.svg");
+[data-theme="dark"] .icon-16px-react a::before {
+  content: url("/icon/16px/react-dark.svg");
 }
 
 .icon-16px-ros a::before {
@@ -519,6 +519,10 @@
   content: url("/icon/24px/adobe-express-dark.svg");
 }
 
+.icon-24px-babylonjs a::before {
+  content: url("/icon/24px/babylonjs.svg");
+}
+
 .icon-24px-bitcoin a::before {
   content: url("/icon/24px/bitcoin.svg");
 }
@@ -621,10 +625,6 @@
 
 .icon-24px-figma a::before {
   content: url("/icon/24px/figma.svg");
-}
-
-[data-theme="dark"] .icon-24px-figma a::before {
-  content: url("/icon/24px/figma-dark.svg");
 }
 
 .icon-24px-firebase a::before {

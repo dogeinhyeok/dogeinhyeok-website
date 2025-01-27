@@ -1,9 +1,0 @@
-{
-  "label": "LangChain",
-  "position": 12,
-  "link": {
-    "type": "generated-index",
-    "description": "LangChain 관련 문서입니다."
-  },
-  "className": "icon-16px-langchain"
-}

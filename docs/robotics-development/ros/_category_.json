@@ -1,9 +1,0 @@
-{
-  "label": "ROS",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Robot Operating System 관련 문서입니다."
-  },
-  "className": "icon-16px-ros"
-}

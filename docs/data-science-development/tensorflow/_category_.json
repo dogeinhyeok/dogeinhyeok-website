@@ -1,9 +1,0 @@
-{
-  "label": "TensorFlow",
-  "position": 10,
-  "link": {
-    "type": "generated-index",
-    "description": "TensorFlow 관련 문서입니다."
-  },
-  "className": "icon-16px-tensorflow"
-}
