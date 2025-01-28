@@ -129,8 +129,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Intro",
-              to: "/docs/intro",
+              label: "웹앱 개발 도구",
+              to: "/docs/web-application-development-tools",
             },
           ],
         },
@@ -162,7 +162,7 @@ const config: Config = {
         {
           title: "More",
           items: [
-            { label: "Docs", to: "/docs/intro" },
+            { label: "Docs", to: "/docs" },
             {
               label: "Blog",
               to: "/blog",

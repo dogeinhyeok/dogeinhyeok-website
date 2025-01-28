@@ -1,0 +1,9 @@
+{
+  "label": "NestJS",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "description": "NestJS 관련 문서입니다."
+  },
+  "className": "icon-16px-nestjs"
+}

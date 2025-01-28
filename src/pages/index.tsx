@@ -29,7 +29,7 @@ function HomepageHeader() {
           {/* 버튼 스타일을 적용합니다. */}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro" // 링크 경로를 지정합니다.
+            to="/docs" // 링크 경로를 지정합니다.
           >
             자세히보기
           </Link>

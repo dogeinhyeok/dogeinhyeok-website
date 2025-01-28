@@ -118,6 +118,10 @@
   content: url("/icon/16px/cursor-dark.svg");
 }
 
+.icon-16px-d3js a::before {
+  content: url("/icon/16px/d3js.svg");
+}
+
 .icon-16px-dall-e a::before {
   content: url("/icon/16px/dall-e.svg");
 }
@@ -246,6 +250,10 @@
   content: url("/icon/16px/napkin.svg");
 }
 
+.icon-16px-nestjs a::before {
+  content: url("/icon/16px/nestjs.svg");
+}
+
 .icon-16px-nextjs a::before {
   content: url("/icon/16px/nextjs.svg");
 }
@@ -294,8 +302,20 @@
   content: url("/icon/16px/patreon-dark.svg");
 }
 
+.icon-16px-prisma a::before {
+  content: url("/icon/16px/prisma.svg");
+}
+
+[data-theme="dark"] .icon-16px-prisma a::before {
+  content: url("/icon/16px/prisma-dark.svg");
+}
+
 .icon-16px-perplexity a::before {
   content: url("/icon/16px/perplexity.svg");
+}
+
+.icon-16px-pixijs a::before {
+  content: url("/icon/16px/pixijs.svg");
 }
 
 .icon-16px-python a::before {
@@ -579,6 +599,10 @@
   content: url("/icon/24px/cursor-dark.svg");
 }
 
+.icon-24px-d3js a::before {
+  content: url("/icon/24px/d3js.svg");
+}
+
 .icon-24px-dall-e a::before {
   content: url("/icon/24px/dall-e.svg");
 }
@@ -707,6 +731,10 @@
   content: url("/icon/24px/napkin.svg");
 }
 
+.icon-24px-nestjs a::before {
+  content: url("/icon/24px/nestjs.svg");
+}
+
 .icon-24px-nextjs a::before {
   content: url("/icon/24px/nextjs.svg");
 }
@@ -755,8 +783,20 @@
   content: url("/icon/24px/patreon-dark.svg");
 }
 
+.icon-24px-prisma a::before {
+  content: url("/icon/24px/prisma.svg");
+}
+
+[data-theme="dark"] .icon-24px-prisma a::before {
+  content: url("/icon/24px/prisma-dark.svg");
+}
+
 .icon-24px-perplexity a::before {
   content: url("/icon/24px/perplexity.svg");
+}
+
+.icon-24px-pixijs a::before {
+  content: url("/icon/24px/pixijs.svg");
 }
 
 .icon-24px-python a::before {
