@@ -128,9 +128,20 @@ const config: Config = {
         {
           title: "Docs",
           items: [
+            { label: "도지인혁연구소", to: "/docs" },
+            {
+              label: "아이디어 관리 도구",
+              to: "/docs/idea-management-tools",
+            },
+            { label: "협업 도구", to: "/docs/collaboration-tools" },
+            { label: "기본 개발 도구", to: "/docs/basic-development-tools/" },
             {
               label: "웹앱 개발 도구",
               to: "/docs/web-application-development-tools",
+            },
+            {
+              label: "지식 인사이트",
+              to: "/docs/knowledge-insights/",
             },
           ],
         },
