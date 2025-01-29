@@ -1,0 +1,9 @@
+{
+  "label": "Canva",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Canva 관련 문서입니다."
+  },
+  "className": "icon-16px-canva"
+}

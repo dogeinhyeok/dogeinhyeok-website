@@ -1,9 +1,9 @@
 {
-  "label": "D3.js",
+  "label": "Recharts",
   "position": 18,
   "link": {
     "type": "generated-index",
-    "description": "D3.js 관련 문서입니다."
+    "description": "Recharts 관련 문서입니다."
   },
   "className": "icon-16px-d3js"
 }

@@ -78,6 +78,10 @@
   content: url("/icon/16px/capcut.svg");
 }
 
+.icon-16px-canva a::before {
+  content: url("/icon/16px/canva.svg");
+}
+
 [data-theme="dark"] .icon-16px-capcut a::before {
   content: url("/icon/16px/capcut-dark.svg");
 }
@@ -516,6 +520,10 @@
 
 .icon-16px-web3js a::before {
   content: url("/icon/16px/web3js.svg");
+}
+
+.icon-16px-webgpu a::before {
+  content: url("/icon/16px/webgpu.svg");
 }
 
 .icon-16px-youtube a::before {
@@ -1005,6 +1013,10 @@
 
 .icon-24px-web3js a::before {
   content: url("/icon/24px/web3js.svg");
+}
+
+.icon-24px-webgpu a::before {
+  content: url("/icon/24px/webgpu.svg");
 }
 
 .icon-24px-youtube a::before {
