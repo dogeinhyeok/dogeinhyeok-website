@@ -16,6 +16,7 @@ const githubUrl = "https://github.com/dogeinhyeok";
 const discordUrl = "https://discord.gg/pyHeT4B4jx";
 const patreonUrl = "https://patreon.com/c/dogeinhyeok/membership";
 const youtubeUrl = "https://youtube.com/@dogeinhyeok";
+const linkedinUrl = "https://www.linkedin.com/in/dogeinhyeok";
 const threadUrl = "https://threads.net/@dogeinhyeok";
 const emailUrl = "devinhyeok@gmail.com";
 
@@ -163,6 +164,10 @@ const config: Config = {
             {
               label: "GitHub",
               href: githubUrl,
+            },
+            {
+              label: "LinkedIn",
+              href: linkedinUrl,
             },
           ],
         },
