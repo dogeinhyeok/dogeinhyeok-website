@@ -164,10 +164,6 @@ const config: Config = {
               label: "GitHub",
               href: githubUrl,
             },
-            {
-              label: "Threads",
-              href: threadUrl,
-            },
           ],
         },
         {
