@@ -1,9 +1,9 @@
 {
-  "label": "BabylonJS",
+  "label": "Babylon.js",
   "position": 19,
   "link": {
     "type": "generated-index",
-    "description": "BabylonJS 관련 문서입니다."
+    "description": "Babylon.js 관련 문서입니다."
   },
   "className": "icon-16px-babylonjs"
 }
