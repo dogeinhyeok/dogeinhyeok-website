@@ -1,6 +1,6 @@
 {
   "label": "OpenAI",
-  "position": 16,
+  "position": 13,
   "link": {
     "type": "generated-index",
     "description": "OpenAI 관련 문서입니다."

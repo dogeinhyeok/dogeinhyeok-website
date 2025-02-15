@@ -13,12 +13,7 @@ import "dotenv/config"; // dotenv로 환경 변수 로드
 // 이 코드는 Node.js에서 실행됩니다 - 클라이언트 측 코드(브라우저 API, JSX 등)를 사용하지 마세요.
 const websiteUrl = "https://dogeinhyeok.com";
 const githubUrl = "https://github.com/dogeinhyeok";
-const discordUrl = "https://discord.gg/pyHeT4B4jx";
-const patreonUrl = "https://patreon.com/c/dogeinhyeok/membership";
 const youtubeUrl = "https://youtube.com/@dogeinhyeok";
-const linkedinUrl = "https://www.linkedin.com/in/dogeinhyeok";
-const threadUrl = "https://threads.net/@dogeinhyeok";
-const emailUrl = "devinhyeok@gmail.com";
 
 const config: Config = {
   title: "도지인혁연구소",
@@ -103,22 +98,10 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: youtubeUrl,
-          label: "Youtube",
+          href: "https://github.com/dogeinhyeok/dogeinhyeok-website",
           position: "right",
-          "aria-label": "Youtube Icon",
-        },
-        {
-          href: discordUrl,
-          position: "right",
-          label: "Discord",
-          "aria-label": "Discord Icon",
-        },
-        {
-          href: patreonUrl,
-          position: "right",
-          label: "Patreon",
-          "aria-label": "Patreon Icon",
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
         },
       ],
     },
@@ -150,24 +133,12 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Discord",
-              href: discordUrl,
-            },
-            {
-              label: "Patreon",
-              href: patreonUrl,
-            },
-            {
               label: "Youtube",
               href: youtubeUrl,
             },
             {
               label: "GitHub",
               href: githubUrl,
-            },
-            {
-              label: "LinkedIn",
-              href: linkedinUrl,
             },
           ],
         },
