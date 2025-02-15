@@ -97,13 +97,13 @@ const config: Config = {
           label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
+        { to: "showcase", label: "Showcase", position: "left" },
         {
           href: "https://github.com/dogeinhyeok/dogeinhyeok-website",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
         },
-        { to: "showcase", label: "Showcase", position: "left" },
       ],
     },
     // 하단 네비게이션 바 편집
