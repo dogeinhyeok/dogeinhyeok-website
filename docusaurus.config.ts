@@ -151,6 +151,10 @@ const config: Config = {
               label: "Blog",
               to: "/blog",
             },
+            {
+              label: "Showcase",
+              to: "/showcase",
+            },
           ],
         },
       ],
