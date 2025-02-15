@@ -103,6 +103,7 @@ const config: Config = {
           className: "header-github-link",
           "aria-label": "GitHub repository",
         },
+        { to: "showcase", label: "Showcase", position: "left" },
       ],
     },
     // 하단 네비게이션 바 편집
