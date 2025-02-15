@@ -53,17 +53,17 @@ function LogoComponentMobile(props: {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <img
+      <div>{props.label}</div>
+      {/* <img
         src={colorMode === "dark" ? props.darkSrc : props.lightSrc}
         alt="Logo"
         style={{
           width: "1rem",
           height: "1rem",
-          marginRight: "0.5rem",
+          marginLeft: "0.5rem",
         }} // 인라인 스타일로 크기 설정
         className="navbar__logo" // 그룹 호버 스타일 추가
-      />
-      <div>{props.label}</div>
+      /> */}
     </a>
   );
 }
